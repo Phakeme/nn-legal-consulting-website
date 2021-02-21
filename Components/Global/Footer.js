@@ -1,9 +1,10 @@
 import React from 'react'
+import Container from '../Utils/Container'
 
 const Footer = () => {
     return (
         <footer className="bg-black text-white h-32 mt-4">
-            <div className="container mx-auto mx-3">
+            <Container>
                 <h2>Footer Section</h2>
                 {/* <a
                 href=""
@@ -13,7 +14,7 @@ const Footer = () => {
                 Footer
                 <img src="/vercel.svg" alt="Vercel Logo" className="" />
             </a> */}
-            </div>
+            </Container>
         </footer>
     )
 }

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Hero from '../Components/Home/Hero'
 import Footer from '../Components/Global/Footer'
 import styles from '../styles/Home.module.css'
-import Navbar from '../Components/Utils/Navbar'
+import Navbar from '../Components/Global/Navbar'
 
 export default function Home() {
   return (
@@ -11,12 +11,9 @@ export default function Home() {
         <title>NN Legal</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container mx-auto mx-3">
-        <Navbar />
-        <Hero />
-      </div>
+      <Navbar />
+      <Hero />
       <Footer />
-
     </div>
   )
 }
