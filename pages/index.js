@@ -1,8 +1,10 @@
 import Head from 'next/head'
-import Hero from '../Components/Home/Hero'
-import Footer from '../Components/Global/Footer'
+// import Hero from '../Components/Home/Hero/'
+
+import { FooterContainer } from "../Containers/footer"
+import { NavbarContainer } from "../Containers/navbar"
 import styles from '../styles/Home.module.css'
-import Navbar from '../Components/Global/Navbar'
+// import Navbar from '../Components/Global/Navbar'
 
 export default function Home() {
   return (
@@ -11,9 +13,9 @@ export default function Home() {
         <title>NN Legal</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Hero />
-      <Footer />
+      <NavbarContainer />
+      {/* <Hero /> */}
+      <FooterContainer />
     </div>
   )
 }

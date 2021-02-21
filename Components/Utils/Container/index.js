@@ -1,10 +1,12 @@
 import React from 'react'
+import { ContainerWrapper } from './containerStyles'
+
 
 const Container = (props) => {
     return (
-        <div div className="container mx-auto max-w-6xl max-w-screen-xl mx-6 px-6">
+        <ContainerWrapper>
             {props.children}
-        </div>
+        </ContainerWrapper>
     )
 }
 
