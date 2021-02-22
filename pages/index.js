@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import { FooterContainer } from "../Containers/footer"
 import { NavbarContainer } from "../Containers/navbar"
+import { HeroContainer } from "../Containers/hero"
 import styles from '../styles/Home.module.css'
 // import Navbar from '../Components/Global/Navbar'
 
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavbarContainer />
-      {/* <Hero /> */}
+      <HeroContainer />
       <FooterContainer />
     </div>
   )

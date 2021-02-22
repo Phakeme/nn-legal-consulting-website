@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const NavbarWrapper = styled.nav`
     color: white;
-    padding: 10px 0;
+    padding: 30px 0;
     margin: auto;
 `
 
