@@ -9,7 +9,9 @@ export function NavbarContainer({ children }) {
             <Navbar.Container>
                 <Navbar.Box>
                     <Navbar.Logo alt="Text" src="/nnlegal-logo.svg" />
-                    <Navbar.Link>Click here</Navbar.Link>
+                    <Navbar.Link>
+                        <h3>Click here to see more</h3>
+                    </Navbar.Link>
                     <FaBars size='2rem' />
                 </Navbar.Box>
             </Navbar.Container>
