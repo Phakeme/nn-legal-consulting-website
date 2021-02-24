@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+p{
+  line-height: 30px;
+}
+
 * {
   box-sizing: border-box;
 }

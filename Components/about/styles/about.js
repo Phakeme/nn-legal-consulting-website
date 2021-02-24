@@ -2,13 +2,34 @@ import styled from 'styled-components'
 
 export const AboutWrapper = styled.div`
 background-color: var(--color-grey);
-color: white;
-height: 520px;
-/* margin-top: 15px; */
+/* min-height: 520px; */
+color: var(--color-black);
+padding: 135px ;
 `
 
-export const Title = styled.span`
+export const Wrapper = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;
+/* background-color: red; */
+grid-gap: 50px;
+/* min-height: 520px; */
+`
+
+export const Content = styled.div`
+    /* background-color: yellowgreen; */
+    > p {
+        margin-top: 5px;
+    }
+    /* height: 100%; */
+    /* padding: 50px; */
+`
+
+export const Title = styled.h3`
     font-size: 1.8rem;
+    text-align: right;
+    line-height: 40px;
+    margin-top: 0;
+    font-weight: 900;
 `
 
 
