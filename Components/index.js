@@ -1,3 +1,6 @@
-export { default as Footer } from './footer/'
-export { default as Hero } from './hero/'
 export { default as Navbar } from './navbar/'
+export { default as Hero } from './hero/'
+export { default as ChooseUs } from './chooseUs/'
+export { default as About } from './about/'
+export { default as Contact } from './contact/'
+export { default as Footer } from './footer/'

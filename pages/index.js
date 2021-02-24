@@ -1,11 +1,11 @@
 import Head from 'next/head'
-// import Hero from '../Components/Home/Hero/'
-
+import styles from '../styles/Home.module.css'
 import { FooterContainer } from "../Containers/footer"
 import { NavbarContainer } from "../Containers/navbar"
+import { ChooseUsContainer } from '../Containers/chooseUs'
+import { AboutContainer } from "../Containers/about"
+import { ContactContainer } from "../Containers/contact"
 import { HeroContainer } from "../Containers/hero"
-import styles from '../styles/Home.module.css'
-// import Navbar from '../Components/Global/Navbar'
 
 export default function Home() {
   return (
@@ -16,6 +16,9 @@ export default function Home() {
       </Head>
       <NavbarContainer />
       <HeroContainer />
+      <ChooseUsContainer />
+      <AboutContainer />
+      <ContactContainer />
       <FooterContainer />
     </div>
   )
