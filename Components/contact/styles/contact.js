@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const ContactWrapper = styled.div`
-background-color: black;
+background-color: var(--color-blue);
 color: white;
-height: 100px;
-margin-top: 15px;
+height: 281px;
+/* margin-top: 15px; */
 `
 
 export const Title = styled.span`

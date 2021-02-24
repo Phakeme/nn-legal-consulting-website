@@ -90,8 +90,9 @@ background: linear-gradient(0deg, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url('/bg.j
 `
 
 export const Showcase = styled.div`
- background: linear-gradient(0deg, rgba(0, 38, 58, 0.2), rgba(0, 38, 58, 0.2)),url('/hero.jpg');
+ /* background: linear-gradient(0deg, rgba(0, 38, 58, 0.2), rgba(0, 38, 58, 0.2)),url('/hero.jpg'); */
  background-size: cover;
+ background-position: center;
  background-repeat: no-repeat;
 `
 

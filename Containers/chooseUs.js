@@ -5,7 +5,10 @@ export function ChooseUsContainer() {
     return (
         <ChooseUs>
             <ChooseUs.Container>
-                <ChooseUs.Title>ChooseUs</ChooseUs.Title>
+                <ChooseUs.Wrapper>
+                    <ChooseUs.Title>Why choose us</ChooseUs.Title>
+                    <ChooseUs.Content>Lorem ipsum dolor sit, amet consectetur adipisicing.</ChooseUs.Content>
+                </ChooseUs.Wrapper>
             </ChooseUs.Container>
         </ChooseUs>
     )

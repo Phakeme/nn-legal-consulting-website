@@ -1,15 +1,25 @@
 import styled from 'styled-components'
 
 export const ChooseUsWrapper = styled.div`
-background-color: black;
-color: white;
-height: 100px;
-margin-top: 15px;
+display: flex;
+background-color: var(--color-blue);
+min-height: 515px;
+text-align: center;
 `
 
-export const Title = styled.span`
+export const Wrapper = styled.div`
+    margin: auto;
+    width: 50%;
+`
+
+export const Title = styled.h3`
     font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 50px;
 `
 
-
-// bg-black text-white h-32 mt-4
+export const Content = styled.h3`
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+`

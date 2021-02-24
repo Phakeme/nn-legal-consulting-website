@@ -26,7 +26,9 @@ export function HeroContainer({ children }) {
                             <h2>Mergers & <br />Acquisitions </h2>
                         </Hero.LinkItemText></Hero.LinkItem4>
                     </Hero.Links>
-                    <Hero.Showcase>
+                    <Hero.Showcase style={{
+                        backgroundImage: "url(" + "https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=905&q=80" + ")",
+                    }}>
                         <Hero.LinkItemText>
 
                             <Hero.Button>

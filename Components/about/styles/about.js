@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const AboutWrapper = styled.div`
-background-color: black;
+background-color: var(--color-grey);
 color: white;
-height: 100px;
-margin-top: 15px;
+height: 520px;
+/* margin-top: 15px; */
 `
 
 export const Title = styled.span`

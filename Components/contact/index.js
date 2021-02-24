@@ -4,12 +4,12 @@ import { ContactWrapper, Title } from './styles/contact'
 
 export default function Contact({ children, ...restProps }) {
     return (
-        <ContactWrapper {...restProps}>{children}</ContactWrapper>
+        <Container {...restProps}>{children}</Container>
     )
 }
 
 Contact.Container = function ContactContainer({ children, ...restProps }) {
-    return <Container {...restProps}>{children}</Container>
+    return <ContactWrapper {...restProps}>{children}</ContactWrapper>
 }
 
 Contact.Title = function ContactTitle({ children, ...restProps }) {

@@ -4,12 +4,12 @@ import { AboutWrapper, Title } from './styles/about'
 
 export default function About({ children, ...restProps }) {
     return (
-        <AboutWrapper {...restProps}>{children}</AboutWrapper>
+        <Container {...restProps}>{children}</Container>
     )
 }
 
 About.Container = function AboutContainer({ children, ...restProps }) {
-    return <Container {...restProps}>{children}</Container>
+    return <AboutWrapper {...restProps}>{children}</AboutWrapper>
 }
 
 About.Title = function AboutTitle({ children, ...restProps }) {
