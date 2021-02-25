@@ -1,8 +1,10 @@
 :root {
   --color-white: white;
   --color-grey: #f6f6f6;
-  --color-blue: #007cba;
+
+  --color-blue: #00324a;
   --color-blue-dark: #00263a;
+  --color-black-navy: #00172a;
   --color-black: #20221f;
 }
 
@@ -18,6 +20,9 @@
 
 html,
 body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
   padding: 0;
   background-color: var(--color-blue-dark);
   color: var(--color-white);

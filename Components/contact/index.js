@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Utils/Container/'
-import { ContactWrapper, Title } from './styles/contact'
+import { ContactWrapper, Title, Content } from './styles/contact'
 
 export default function Contact({ children, ...restProps }) {
     return (
@@ -8,8 +8,12 @@ export default function Contact({ children, ...restProps }) {
     )
 }
 
-Contact.Container = function ContactContainer({ children, ...restProps }) {
+Contact.Container = function ({ children, ...restProps }) {
     return <ContactWrapper {...restProps}>{children}</ContactWrapper>
+}
+
+Contact.Content = function ({ children, ...restProps }) {
+    return <Content {...restProps}>{children}</Content>
 }
 
 Contact.Title = function ContactTitle({ children, ...restProps }) {

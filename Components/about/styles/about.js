@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const AboutWrapper = styled.div`
-background-color: var(--color-grey);
-/* min-height: 520px; */
-color: var(--color-black);
+background-color: var(--color-black-navy);
+min-height: 720px;
+/* color: var(--color-black); */
 padding: 135px ;
 `
 

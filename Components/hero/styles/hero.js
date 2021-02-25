@@ -25,8 +25,12 @@ export const LinkItemText = styled.div`
  align-items: center;
  justify-content: center;
  text-align: center;
- font-size: 24px;
+ padding: 20px;
+ font-size: 20px;
  height: 100%;
+ > h2 {
+    text-transform: capitalize;
+ }
 `
 
 export const LinkItem1 = styled.div`

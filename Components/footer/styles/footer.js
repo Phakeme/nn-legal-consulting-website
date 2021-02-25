@@ -3,8 +3,10 @@ import styled from 'styled-components'
 export const FooterWrapper = styled.div`
 background-color: var(--color-black);
 color: white;
-height: 100px;
-/* margin-top: 15px; */
+text-align: center;
+/* height: 100px; */
+/* margin-top: 70px; */
+padding: 20px 70px;
 `
 
 export const Title = styled.span`

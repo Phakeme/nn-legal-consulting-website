@@ -5,7 +5,7 @@ export function FooterContainer() {
     return (
         <Footer>
             <Footer.Container>
-                <Footer.Title>Footer</Footer.Title>
+                <p>© 2021 NN Legal | Privacy Policy | Terms & Conditions</p>
             </Footer.Container>
         </Footer>
     )

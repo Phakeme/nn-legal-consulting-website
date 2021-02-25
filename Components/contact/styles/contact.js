@@ -1,14 +1,30 @@
 import styled from 'styled-components'
 
 export const ContactWrapper = styled.div`
+/* display: grid;
+grid-template-columns: 1fr 1fr; */
+display: flex;
+justify-content: space-between;
+align-items: center;
 background-color: var(--color-blue);
 color: white;
-height: 281px;
+min-height: 281px;
+padding: 80px;
 /* margin-top: 15px; */
+`
+
+export const Content = styled.div`
+padding: 30px;
+    background-color: yellowgreen;
+    > p {
+        margin-top: 5px;
+    }
 `
 
 export const Title = styled.span`
     font-size: 1.8rem;
+    font-weight: 800;
+    width: 40%;
 `
 
 
