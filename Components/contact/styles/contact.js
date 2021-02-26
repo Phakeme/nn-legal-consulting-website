@@ -6,7 +6,7 @@ grid-template-columns: 1fr 1fr; */
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: var(--color-blue);
+background-color: var(--color-black-navy);
 color: white;
 min-height: 281px;
 padding: 80px;

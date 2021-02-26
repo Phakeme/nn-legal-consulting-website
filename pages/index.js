@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
       <NavbarContainer />
       <HeroContainer />
-      <ChooseUsContainer />
       <AboutContainer />
+      <ChooseUsContainer />
       <ContactContainer />
       <FooterContainer />
     </div>
