@@ -46,6 +46,10 @@ p{
   box-sizing: border-box;
 }
 
+ul{
+  padding: 0 0 0 20px;
+}
+
 /* colors: {
   black: '#262825',
   white: '#fff',
