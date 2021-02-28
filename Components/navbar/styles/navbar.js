@@ -30,7 +30,7 @@ export const MainLink = styled.div`
 
     :hover{
        background-color:#c3996b; 
-       transform: scale(1.1);
+       /* transform: scale(1.1); */
     }
 
     > h3 {

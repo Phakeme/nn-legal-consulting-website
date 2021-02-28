@@ -29,16 +29,31 @@ export const Wrapper = styled.div`
 display: grid;
 grid-template-columns: 325.5px 1fr;
 /* background-color: red; */
-padding-bottom: 70px;
+/* padding-bottom: 70px; */
 /* grid-gap: 50px; */
 /* min-height: 520px; */
 `
 
 export const Sidebar = styled.div`
 /* width: 300px; */
+/* top: 3rem; */
+position: sticky;
+  position: -webkit-sticky;
+  top: 70px;
+    left: 13px;
+    width: 335px;
+    height: fit-content;
 /* background-color: red; */
-padding: 0 30px;
+/* position: absolute; */
+padding: 0 20px;
+/* overflow-x: auto; */
+/* overflow: scroll; */
+/* position: fixed; */
+    z-index: 10;
+    /* top: 3.6rem; */
+    /* left: 0; */
 border-right: 1px solid var(--color-gold);
+/* overflow-y: auto; */
 /* position: fixed; */
 /* z-index: 1; */
   /* top: 0;
@@ -66,12 +81,13 @@ margin-bottom: 5px;
 /* height: 30px; */
 `
 
-export const Heading = styled.a`
+export const Heading = styled.div`
 display: flex;
 font-weight: bold;
 padding: 10px;
 background-color: var(--color-blue);
 width: 100%;
+offset: 500px;
 border-left: 1px solid var(--color-gold);
 cursor: pointer;
 `
@@ -86,11 +102,16 @@ margin: 5px 0;
 `
 
 export const DocWrapper = styled.div`
+position: relative;
+/* overflow: scroll; */
 /* width: 900px; */
-/* background-color: blue; */
 /* padding: 10px; */
 padding: 0 30px;
-/* min-height: 300px; */
+width: 100%;
+/* height: 700px; */
+/* margin-left: 300px; */
+/* background-color: blue; */
+/* margin-bottom: 70px; */
 `
 
 export const Content = styled.div`

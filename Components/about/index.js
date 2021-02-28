@@ -44,7 +44,10 @@ About.Li = function AboutLi({ children, ...restProps }) {
 
 About.Heading = function AboutHeading({ children, ...restProps }) {
     const { isOpen, setIsOpen } = useContext(ToggleContext)
-    return <Heading onClick={() => setIsOpen((isOpen) => !isOpen)} {...restProps}>{children}</Heading>
+    return <Heading  {...restProps}>{children}</Heading>
+
+    // onClick={() => setIsOpen((isOpen) => !isOpen)}
+
 }
 
 About.SubHeading = function AboutSubHeading({ children, ...restProps }) {
