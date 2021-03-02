@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Utils/Container/'
-import { NavbarWrapper, Logo, Box, MainLink } from './styles/navbar'
+import { NavbarWrapper, Logo, Box, MainButton } from './styles/navbar'
 import Link from 'next/link'
 
 export default function Navbar({ children, ...restProps }) {
@@ -27,13 +27,12 @@ Navbar.Logo = function NavbarLogo({ to, ...restProps }) {
     )
 }
 
-Navbar.Link = function NavbarLink({ children, ...restProps }) {
+Navbar.MainButton = function NavbarMainButton({ children, ...restProps }) {
     return (
-        <Link href="/services">
-            <a>
-                <MainLink {...restProps}>{children}</MainLink>
-            </a>
-        </Link>
+
+        <MainButton {...restProps}>{children}</MainButton>
+
+
     )
 }
 

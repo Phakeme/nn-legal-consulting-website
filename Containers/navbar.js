@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar } from '../Components'
+import { Link } from 'react-scroll'
 
 import { FaBars } from 'react-icons/fa';
 
@@ -9,9 +10,11 @@ export function NavbarContainer({ children }) {
             <Navbar.Container>
                 <Navbar.Box>
                     <Navbar.Logo alt="Text" src="/nnlegal-logo.svg" />
-                    <Navbar.Link>
-                        <h3>Our Correspondent services</h3>
-                    </Navbar.Link>
+                    <Link to="WHY-CHOOSE-US" spy={true} smooth={true} offset={-90} >
+                        <Navbar.MainButton>
+                            <h3>Our Correspondent services</h3>
+                        </Navbar.MainButton>
+                    </Link>
                     <FaBars size='2rem' />
                 </Navbar.Box>
             </Navbar.Container>

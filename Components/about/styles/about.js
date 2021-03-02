@@ -104,7 +104,7 @@ position: relative;
 /* overflow: scroll; */
 /* width: 900px; */
 /* padding: 10px; */
-padding: 40px;
+padding: 10px 40px 40px 40px;
 width: 100%;
 > p {
     text-align: justify;

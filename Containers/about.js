@@ -122,7 +122,7 @@ export function AboutContainer() {
                         <p>It is essential for government and private sector to ensure that social engagement facilitation and stakeholder engagement takes place before implementation of any responsible project or social effective programme as a mean of good governance and thus to ensure positive impact, stakeholder cooperation and maximized effectiveness. <br /><br />
                         NN Legal Consulting offers professional and accredited Social Engagement Facilitation services ensuring that there is adequate social facilitation and stakeholder engagement (social engagement) in order to ensure seamless execution of projects and programmes and a total buy in from all social partners. Key stakeholders includes government, civil society, private sector and labour where there’s a need for a factual based mutual trust and common ground.
 </p>
-                        <h3>RERSEACH AND DEVELOPMENT SERVICES (R&D)</h3>
+                        <h3 name="R&D">RERSEACH AND DEVELOPMENT SERVICES (R&D)</h3>
                         <p>We have a dynamic multi-disciplinary team comprising of internal and external specialists who are equipped to initiate the entire research and development project cycles, from planning, implementation and administration up to closure delivering highly innovative, cost-effective and high quality research and development solutions for our clients. Our key strength is the ability to transform a strategy into action with measurable results. <br /><br />Core services include : Program Development (also Turnkeys)</p>
                         <ul>
                             <li>Applied Research & Analysis pertaining: local & global socioeconomic surveys, emergent policy issues, performance capacity limitations and problems in the sectors</li>
@@ -147,7 +147,7 @@ export function AboutContainer() {
                             <li>Interventions & Value for Customer creation (Identifying gaps and implementing Rescue efforts for gaps, crisis and deficiencies) e.g. customers stock returns / failed deliveries vs. customer services = customer oriented operation solution</li>
                             <li>Sweet Spot Migration  </li>
                         </ul>
-                        <h3>MERGERS & ACQUISITION CONSULTING</h3>
+                        <h3 name="acquisition">MERGERS & ACQUISITION CONSULTING</h3>
                         <p>Business Diversification (also through acquiring of existing businesses)</p>
                         <ul>
                             <li>New markets</li>
@@ -177,7 +177,7 @@ These consolidated efforts will lead to a development of clearly defined skills 
 </p>
                         <h3>COMMERCIAL PRACTICE</h3>
                         <p>We assist clients with all commercial and corporate aspects of their business. Commercial transactions are the heartbeat of the firm and the majority of our panel of attorneys are primarily involved in assisting clients with a wide variety of commercial transactions. Our services are not limited to the drafting and settlement of a composite range of commercial contracts but also include advising on the tax and other implications of commercial transactions, conducting due diligence investigations, advising on the implication of Broad-Based Black Economic Empowerment and assisting with the implementation of commercial transactions.</p>
-                        <h3>COMPANY & SECRETARIAL SERVICES</h3>
+                        <h3 name="secretarial">COMPANY & SECRETARIAL SERVICES</h3>
                         <p>Company secretarial services have been redefined in the modern corporate world and it just does not end with filing and corresponding but also includes statutory compliance issues which form the foundation of and determines the direction of any company. We cover a full spectrum of secretarial services including:</p>
                         <ul>
                             <li>company registrations</li>

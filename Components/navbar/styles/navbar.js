@@ -4,20 +4,21 @@ export const NavbarWrapper = styled.nav`
     color: white;
     padding: 30px 0;
     margin: auto;
+    width:100%;
 `
 
 export const Box = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:100%;
 `
 
 export const Logo = styled.img`
     height: 100%;
 `
 
-export const MainLink = styled.div`
-    /* background-color:#c3996b; */
+export const MainButton = styled.div`
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -25,12 +26,12 @@ export const MainLink = styled.div`
     height: 50px;
     text-transform:uppercase;
     border: 2px solid #c3996b;
+    cursor: pointer;
     border-radius: 50px;
     transition: transform .2s;
 
     :hover{
        background-color:#c3996b; 
-       /* transform: scale(1.1); */
     }
 
     > h3 {
