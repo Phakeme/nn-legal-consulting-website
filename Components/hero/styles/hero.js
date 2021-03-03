@@ -33,7 +33,6 @@ export const LinkItemText = styled.div`
 `
 
 export const LinkItem = styled.div`
-/* background: linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)),url('/bg.jpg'); */
  background-size: cover;
  background-repeat: no-repeat; 
  height: 100%;
@@ -49,24 +48,30 @@ export const LinkItem = styled.div`
  `
 
 export const Showcase = styled.div`
+display: flex;
+align-items: center;
+    justify-content: center;
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
 `
 
 export const Button = styled.div`
-    background-color:#fff;
+  color: var(--color-white);
+    background-color: var(--color-blue);
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    color: #00263a;
+    width: 200px;
+    cursor: pointer;
     border-radius: 50px;
+    text-transform:uppercase;
     transition: transform .2s;
 
     :hover{
-       transform: scale(1.1);
+        background-color: var(--color-gold);
     }
 
     > h3 {

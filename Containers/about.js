@@ -1,7 +1,7 @@
 import React from 'react'
 import { About } from '../Components'
 import { FaAngleRight } from 'react-icons/fa'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 export function AboutContainer() {
 

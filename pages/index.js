@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { FooterContainer } from "../Containers/footer"
 import { NavbarContainer } from "../Containers/navbar"
-import { ChooseUsContainer } from '../Containers/chooseUs'
+// import { ChooseUsContainer } from '../Containers/chooseUs'
 import { AboutContainer } from "../Containers/about"
 import { ContactContainer } from "../Containers/contact"
 import { HeroContainer } from "../Containers/hero"
@@ -17,7 +17,7 @@ export default function Home() {
       <NavbarContainer />
       <HeroContainer />
       <AboutContainer />
-      <ChooseUsContainer />
+      {/* <ChooseUsContainer /> */}
       <ContactContainer />
       <FooterContainer />
     </div>
