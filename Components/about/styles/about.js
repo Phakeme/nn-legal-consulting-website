@@ -62,18 +62,19 @@ border-right: 1px solid var(--color-gold);
 /* min-height: 300px; */
 `
 
-export const Ul = styled.ul`
+export const Ul = styled.div`
 /* background-color: red; */
 
 list-style: none;
 padding: 0;
+margin: 0px 0 0 0px;
 
 `
 
-export const Li = styled.li`
+export const Li = styled.div`
 /* background-color: green; */
-/* padding: 10px; */
-margin-bottom: 5px;
+padding-left: 25px;
+margin-bottom: 10px;
 
 /* background-color: var(--color-blue); */
 /* height: 30px; */
@@ -81,21 +82,30 @@ margin-bottom: 5px;
 
 export const Heading = styled.div`
 display: flex;
+justify-content: space-between;
 font-weight: bold;
+font-size: 20px;
 padding: 10px;
 background-color: var(--color-blue);
 width: 100%;
 offset: 500px;
 border-left: 1px solid var(--color-gold);
+margin-bottom: 5px;
 cursor: pointer;
 `
 
-export const SubHeading = styled.li`
-list-style:none;
-background-color: var(--color-blue);
+export const SubHeading = styled.div`
+/* list-style:none; */
+/* background-color: var(--color-gold); */
+border-bottom: 1px solid var(--color-gold);
 /* height: 30px; */
-padding: 10px;
+cursor: pointer;
+padding: 5px 10px;
 margin: 5px 0;
+
+:hover {
+   background-color: var(--color-blue); 
+}
 
 `
 

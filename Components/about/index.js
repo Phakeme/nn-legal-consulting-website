@@ -1,8 +1,6 @@
-import React, { useState, createContext, useContext } from 'react'
+import React from 'react'
 import Container from '../Utils/Container/'
 import { AboutWrapper, Title, Wrapper, DocWrapper, Sidebar, Content, Quote, Ul, Li, Heading, SubHeading } from './styles/about'
-
-const ToggleContext = createContext()
 
 export default function About({ children, ...restProps }) {
     return (
@@ -35,24 +33,15 @@ About.Ul = function AboutUl({ children, ...restProps }) {
 }
 
 About.Li = function AboutLi({ children, ...restProps }) {
-    const [isOpen, setIsOpen] = useState(false)
-    return (<ToggleContext.Provider value={{ isOpen, setIsOpen }}>
-        <Li {...restProps}>{children}</Li>
-    </ToggleContext.Provider>
-    )
+    return <Li  {...restProps}>{children}</Li>
 }
 
 About.Heading = function AboutHeading({ children, ...restProps }) {
-    const { isOpen, setIsOpen } = useContext(ToggleContext)
     return <Heading  {...restProps}>{children}</Heading>
-
-    // onClick={() => setIsOpen((isOpen) => !isOpen)}
-
 }
 
 About.SubHeading = function AboutSubHeading({ children, ...restProps }) {
-    const { isOpen } = useContext(ToggleContext)
-    return isOpen ? <SubHeading {...restProps}>{children}</SubHeading> : null
+    return <SubHeading {...restProps}>{children}</SubHeading>
 }
 
 About.DocWrapper = function AboutDocWrapper({ children, ...restProps }) {
