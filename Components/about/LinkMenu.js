@@ -18,7 +18,7 @@ const LinkMenu = () => {
         <About.Ul>
             {Data.map((item, index) => (
                 <>
-                    <Link to={item.to} spy={true} smooth={true} offset={-90} >
+                    <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} >
                         <About.Heading onClick={() => toggle(index)} key={index}>
                             {item.mainLink}
                             {isOpen === index ? <FaAngleUp /> : <FaAngleDown />}
@@ -27,7 +27,7 @@ const LinkMenu = () => {
                     {isOpen === index ? <About.Ul>
                         <About.Li>
                             {item.subLinks.map((item, index) => (
-                                <Link to={item.to} spy={true} smooth={true} offset={-90} >
+                                <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} key={index} >
                                     <About.SubHeading to={item.to} key={index}>
                                         {item.link}
                                     </About.SubHeading>
