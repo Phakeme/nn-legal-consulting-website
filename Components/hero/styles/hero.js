@@ -30,6 +30,11 @@ export const LinkItemText = styled.div`
  > h2 {
     text-transform: capitalize;
  }
+ > div {
+    /* font-family: 'Playfair Display', serif;  */
+    font-weight: 500;
+    border-bottom: 1px solid var(--color-gold);
+ }
 `
 
 export const LinkItem = styled.div`

@@ -18,7 +18,7 @@ const LinkMenu = () => {
         <About.Ul>
             {Data.map((item, index) => (
                 <>
-                    <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} >
+                    <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} key={index} >
                         <About.Heading onClick={() => toggle(index)} key={index}>
                             {item.mainLink}
                             {isOpen === index ? <FaAngleUp /> : <FaAngleDown />}

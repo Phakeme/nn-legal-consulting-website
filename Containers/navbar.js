@@ -10,11 +10,11 @@ export function NavbarContainer({ children }) {
             <Navbar.Container>
                 <Navbar.Box>
                     <Navbar.Logo alt="Text" src="/nnlegal-logo.svg" />
-                    <Link to="WHY-CHOOSE-US" spy={true} smooth={true} offset={-90} >
+                    {/* <Link to="WHY-CHOOSE-US" spy={true} smooth={true} offset={-90} duration={0}>
                         <Navbar.MainButton>
-                            <h3>Our Correspondent services</h3>
+                            <h3>Correspondent services</h3>
                         </Navbar.MainButton>
-                    </Link>
+                    </Link> */}
                     <FaBars size='2rem' />
                 </Navbar.Box>
             </Navbar.Container>

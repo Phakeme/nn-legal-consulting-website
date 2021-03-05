@@ -43,7 +43,7 @@ position: sticky;
     left: 13px;
     width: 335px;
     height: fit-content;
-padding: 0 20px;
+padding: 0 20px 54px 20px;
 /* overflow-x: auto; */
 /* overflow: scroll; */
 /* position: fixed; */
@@ -114,10 +114,15 @@ position: relative;
 /* overflow: scroll; */
 /* width: 900px; */
 /* padding: 10px; */
-padding: 10px 40px 40px 40px;
+padding: 0 40px 40px 40px;
 width: 100%;
 > p {
     text-align: justify;
+}
+
+> h2 :first-child{
+    /* background-color: red; */
+    margin-top: 0;
 }
 /* height: 700px; */
 /* margin-left: 300px; */
