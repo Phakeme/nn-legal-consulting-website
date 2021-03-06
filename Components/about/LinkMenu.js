@@ -15,7 +15,7 @@ const LinkMenu = () => {
     }
 
     return (
-        <About.Ul>
+        <About.Ul >
 
             {Data.map((item, index) => (
                 <div key={index}>

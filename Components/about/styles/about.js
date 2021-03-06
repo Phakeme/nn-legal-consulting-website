@@ -50,6 +50,10 @@ offset: 500px;
 border-left: 1px solid var(--color-gold);
 margin-bottom: 5px;
 cursor: pointer;
+:hover{
+    /* color: var(--color-blue); */
+    background-color: var(--color-gold);
+}
 `
 
 export const SubHeading = styled.div`

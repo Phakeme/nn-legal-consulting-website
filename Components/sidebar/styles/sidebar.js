@@ -23,7 +23,7 @@ margin-left: auto;
 export const Body = styled.div`
     height: 100vh;
     margin-left: 20px;
-    background: var(--color-blue);
+    background: var(--color-blue-dark);
     width:100%;
     left: 0;
     padding: 67px 30px;
@@ -37,6 +37,6 @@ export const Icon = styled.div`
 `
 
 export const Links = styled.div`
-background-color: black;
-min-height: 500px;
+/* background-color: black; */
+/* min-height: 500px; */
 `

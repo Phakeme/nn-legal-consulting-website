@@ -34,3 +34,20 @@ export const Qoute = styled.h3`
     margin-bottom: 0;
     font-weight: 100;
 `
+
+export const ToTop = styled.button`
+  position: fixed;
+  bottom: 20px;
+  right: 39px;
+  width: 29px;
+  height: 29px;
+  text-align: center;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--color-gold);
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+`

@@ -8,7 +8,7 @@ export function HeroContainer({ children }) {
             <Hero.Wrapper>
                 <Hero.Inner>
                     <Hero.Links>
-                        <Link to="ENTERPRISE-SERVICES" duration={0} spy={true} smooth={true} offset={-90} >
+                        <Link to="CorrespondentServices" duration={0} spy={true} smooth={true} offset={-90} >
                             <Hero.LinkItem style={{
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)),url('/bg.jpg')`
                             }}>

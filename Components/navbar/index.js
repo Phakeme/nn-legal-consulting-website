@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Utils/Container/'
-import { NavbarWrapper, Logo, Inner, Icon, Qoute } from './styles/navbar'
+import { NavbarWrapper, Logo, Inner, Icon, Qoute, ToTop } from './styles/navbar'
 import Link from 'next/link'
 
 export default function Navbar({ children, ...restProps }) {
@@ -39,4 +39,8 @@ Navbar.Button = function NavbarButton({ children, ...restProps }) {
 
 Navbar.Qoute = function NavbarQoute({ children, ...restProps }) {
     return <Qoute {...restProps}>{children}</Qoute>
+}
+
+Navbar.ToTop = function NavbarToTop({ children, ...restProps }) {
+    return <ToTop {...restProps}>{children}</ToTop>
 }
