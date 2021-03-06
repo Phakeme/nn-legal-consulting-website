@@ -8,9 +8,6 @@ export function AboutContainer() {
     return (
         <About>
             <About.Container>
-                <About.Quote id="quote">
-                    <About.Title>“Your legal minds with a personal touch”</About.Title>
-                </About.Quote>
                 <About.Wrapper>
                     <About.Sidebar>
 

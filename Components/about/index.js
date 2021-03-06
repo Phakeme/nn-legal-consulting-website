@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Utils/Container/'
-import { AboutWrapper, Title, Wrapper, DocWrapper, Sidebar, Content, Quote, Ul, Li, Heading, SubHeading } from './styles/about'
+import { AboutWrapper, Wrapper, DocWrapper, Sidebar, Content, Ul, Li, Heading, SubHeading } from './styles/about'
 
 export default function About({ children, ...restProps }) {
     return (
@@ -10,10 +10,6 @@ export default function About({ children, ...restProps }) {
 
 About.Container = function AboutContainer({ children, ...restProps }) {
     return <AboutWrapper {...restProps}>{children}</AboutWrapper>
-}
-
-About.Quote = function AboutQuote({ children, ...restProps }) {
-    return <Quote {...restProps}>{children}</Quote>
 }
 
 About.Title = function AboutTitle({ children, ...restProps }) {

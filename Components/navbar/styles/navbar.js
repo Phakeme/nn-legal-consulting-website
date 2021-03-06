@@ -7,7 +7,7 @@ export const NavbarWrapper = styled.nav`
     width:100%;
 `
 
-export const Box = styled.div`
+export const Inner = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,23 +18,19 @@ export const Logo = styled.img`
     height: 100%;
 `
 
-export const MainButton = styled.div`
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    text-transform:uppercase;
-    border: 2px solid #c3996b;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: transform .2s;
-
+export const Icon = styled.div`
     :hover{
-       background-color:#c3996b; 
+       cursor: pointer;
     }
+`
 
-    > h3 {
-        padding-bottom: 2px;
-    }
+export const Qoute = styled.h3`
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
 `

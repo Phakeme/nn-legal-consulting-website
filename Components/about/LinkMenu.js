@@ -16,8 +16,9 @@ const LinkMenu = () => {
 
     return (
         <About.Ul>
+
             {Data.map((item, index) => (
-                <>
+                <div key={index}>
                     <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} key={index} >
                         <About.Heading onClick={() => toggle(index)} key={index}>
                             {item.mainLink}
@@ -35,8 +36,7 @@ const LinkMenu = () => {
                             ))}
                         </About.Li>
                     </About.Ul> : null}
-
-                </>
+                </div>
             ))}
         </About.Ul>
     )
