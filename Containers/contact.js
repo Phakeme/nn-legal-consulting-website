@@ -1,13 +1,19 @@
 import React from 'react'
 import { Contact, Hero } from '../Components'
+import { ContactFormContainer } from './contactForm'
 
 export function ContactContainer() {
     return (
-        <Contact >
-            <Contact.Container name="contact">
-                <Contact.Title>
-                    Get in touch with us today to start fuelling your <br /> business’s growth</Contact.Title>
-            </Contact.Container>
+        <Contact>
+            <Contact.Wrapper name="contact">
+
+                <ContactFormContainer />
+
+                <Contact.Details>
+                    Contact details section
+                    </Contact.Details>
+
+            </Contact.Wrapper>
         </Contact>
     )
 }

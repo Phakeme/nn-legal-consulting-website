@@ -1,24 +1,19 @@
 import styled from 'styled-components'
 
-export const ContactWrapper = styled.div`
-/* display: grid;
-grid-template-columns: 1fr 1fr; */
-display: flex;
-justify-content: space-between;
-align-items: center;
+export const Wrapper = styled.div`
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 60px;
 background-color: var(--color-blue);
-color: white;
-min-height: 400px;
-padding: 80px;
-/* margin-top: 15px; */
+min-height: 600px;
+padding: 60px;
 `
 
-export const Content = styled.div`
-padding: 30px;
-    background-color: yellowgreen;
-    > p {
+export const Details = styled.div`
+    background-color: var(--color-blue);
+    /* > p {
         margin-top: 5px;
-    }
+    } */
 `
 
 export const Title = styled.span`
