@@ -51,10 +51,13 @@ export function NavbarContainer({ children }) {
                                                 {item.mainLink}
                                             </About.Heading>
                                         </Link>
-                                        {sidebar === index ? <About.Ul>
-                                        </About.Ul> : null}
                                     </div>
                                 ))}
+                                <Link to="contact" duration={0} spy={true} smooth={true} offset={-90} >
+                                    <About.Heading onClick={() => showSidebar()} >
+                                        Contact Us
+                                            </About.Heading>
+                                </Link>
                             </About.Ul>
                         </Sidebar.Links>
                     </Sidebar.Body>

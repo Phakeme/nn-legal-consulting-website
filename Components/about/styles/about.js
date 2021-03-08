@@ -22,7 +22,7 @@ position: sticky;
     left: 13px;
     width: 335px;
     height: fit-content;
-margin-bottom: 54px;
+margin-bottom: 20px;
     z-index: 10;
 border-right: 1px solid var(--color-gold);
 `

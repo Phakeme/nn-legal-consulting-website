@@ -39,7 +39,7 @@ export function ContactFormContainer() {
                     isSubmitting,
                     /* and other goodies */
                 }) => (
-                    <form onSubmit={handleSubmit} autocomplete="off">
+                    <form onSubmit={handleSubmit} autoComplete="off">
 
                         <input
                             type="text"

@@ -23,7 +23,7 @@ margin-left: auto;
 export const Body = styled.div`
     height: 100vh;
     margin-left: 20px;
-    background: var(--color-blue-dark);
+    background: var(--color-black-navy);
     width:100%;
     left: 0;
     padding: 67px 30px;
