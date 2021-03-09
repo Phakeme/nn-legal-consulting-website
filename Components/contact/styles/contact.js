@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
 background-color: var(--color-blue);
 min-height: 600px;
 padding: 60px;
+
+@media only screen and (max-width: 933px) {  
+    display: none;
+}
 `
 
 export const Details = styled.div`

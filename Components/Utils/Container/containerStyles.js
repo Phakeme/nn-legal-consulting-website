@@ -6,4 +6,8 @@ export const ContainerWrapper = styled.div`
     /* width: 1280px; */
     /* background-color: red; */
     padding: 0 1.5rem;
+
+    @media only screen and (max-width: 933px) {  
+        padding: 0;
+}
 `

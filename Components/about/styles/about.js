@@ -3,16 +3,26 @@ import styled from 'styled-components'
 export const AboutWrapper = styled.div`
 padding: 60px;
 background-color: var(--color-black-navy);
-`
 
-export const Quote = styled.div`
-padding: 80px;
+@media only screen and (max-width: 933px) {  
+    padding: 15px;
+}
 `
 
 export const Wrapper = styled.div`
 display: grid;
 grid-gap: 40px;
 grid-template-columns: 325.5px 1fr;
+
+@media only screen and (max-width: 933px) {  
+    grid-gap: 20px;
+    grid-template-columns: 250px 1fr;
+}
+
+@media only screen and (max-width: 800px) {  
+    /* grid-gap: 20px; */
+    grid-template-columns: 1fr;
+}
 `
 
 export const Sidebar = styled.div`
@@ -25,17 +35,32 @@ position: sticky;
 margin-bottom: 20px;
     z-index: 10;
 border-right: 1px solid var(--color-gold);
+
+@media only screen and (max-width: 933px) {  
+    width: 250px;
+}
+
+@media only screen and (max-width: 800px) {  
+    width: 100%;
+    position: relative;
+  top: 0px;
+  /* left: 0px; */
+  border-right: none;
+    /* display: none; */
+}
+
 `
 
 export const Ul = styled.div`
 list-style: none;
 padding: 0;
-margin: 0px 0 0 0px;
+margin: 0 0 0 0;
+width: 95.6%;
 `
 
 export const Li = styled.div`
-padding-left: 25px;
-margin-bottom: 10px;
+/* padding-left: 25px; */
+margin: 10px 0;
 `
 
 export const Heading = styled.div`
@@ -48,7 +73,8 @@ background-color: var(--color-blue);
 width: 100%;
 offset: 500px;
 border-left: 1px solid var(--color-gold);
-margin-bottom: 5px;
+    margin: 5px auto;
+
 cursor: pointer;
 :hover{
     /* color: var(--color-blue); */

@@ -23,8 +23,6 @@ export function NavbarContainer({ children }) {
         window.addEventListener('scroll', showToTopButton)
     }
 
-
-
     return (
         <Navbar name="home">
             <Navbar.Container>
@@ -53,7 +51,7 @@ export function NavbarContainer({ children }) {
                                         </Link>
                                     </div>
                                 ))}
-                                <Link to="contact" duration={0} spy={true} smooth={true} offset={-90} >
+                                <Link to="contact" duration={0} spy={true} smooth={true} offset={0} >
                                     <About.Heading onClick={() => showSidebar()} >
                                         Contact Us
                                             </About.Heading>

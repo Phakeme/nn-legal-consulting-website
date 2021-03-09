@@ -1,12 +1,13 @@
 :root {
   --color-white: white;
   --color-grey: #f6f6f6;
-
   --color-blue: #00324a;
   --color-blue-dark: #00263a;
   --color-black-navy: #00172a;
   --color-gold: #c3996b;
   --color-black: #20221f;
+
+  /* --break-point: 600px; */
 }
 
 /* Font Name: Montserrat */
@@ -50,16 +51,14 @@ ul{
   line-height: 30px;
 }
 
-/* .correspondent{
-  border-bottom: 1px solid var(--color-gold);
+/* @media media type and (condition: breakpoint) {
+  // CSS rules
 } */
 
-/* colors: {
-  black: '#262825',
-  white: '#fff',
-  grey: "#f2f2f2",
-  blue: '#00263a',
-  blueDark: '#478DD0'
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 } */
 label {
   color: white;

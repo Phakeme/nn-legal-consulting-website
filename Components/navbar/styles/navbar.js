@@ -5,6 +5,11 @@ export const NavbarWrapper = styled.nav`
     padding: 30px 0;
     margin: auto;
     width:100%;
+    @media only screen and (max-width: 933px) {  
+       
+        padding: 30px 1.5rem;
+}
+
 `
 
 export const Inner = styled.div`
@@ -33,6 +38,22 @@ export const Qoute = styled.h3`
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 100;
+
+    @media only screen and (max-width: 600px) {  
+        font-size: 1rem;
+        line-height: 27px;
+        padding: 0 66px;
+}
+
+@media only screen and (max-width: 411px) {  
+        font-size: 1rem;
+        line-height: 27px;
+        padding: 0 15px;
+}
+
+@media only screen and (max-width: 376px) {  
+ display: none
+}
 `
 
 export const ToTop = styled.button`
