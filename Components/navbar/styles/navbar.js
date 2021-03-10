@@ -8,15 +8,27 @@ export const NavbarWrapper = styled.nav`
     @media only screen and (max-width: 933px) {  
        
         padding: 30px 1.5rem;
+        /* background-color: red; */
 }
 
+@media only screen and (max-width: 800px) {  
+       position: sticky;
+       top: 0;
+       padding: 10px 16px;
+       /* background-color: red; */
+       z-index: 200;
+       background-color: var(--color-blue);
+       box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
+-webkit-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
+-moz-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
+}
 `
 
 export const Inner = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:100%;
+    width:100%;   
 `
 
 export const Logo = styled.img`

@@ -5,9 +5,10 @@ import { ContactForm } from '../Components'
 export function ContactFormContainer() {
     return (
         <ContactForm>
-
-            <h2 style={{ marginTop: 0 }}>We'd love to hear from you</h2>
-            <p >For all enquiries, please enter your details in the form below.</p>
+            <ContactForm.Headings>
+                <h2 style={{ marginTop: 0 }}>We'd love to hear from you</h2>
+                <p >For all enquiries, please enter your details in the form below.</p>
+            </ContactForm.Headings>
             <Formik
                 initialValues={{ name: '', email: '', message: '' }}
 

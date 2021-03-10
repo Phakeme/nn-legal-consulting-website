@@ -4,6 +4,12 @@ export const AboutWrapper = styled.div`
 padding: 60px;
 background-color: var(--color-black-navy);
 
+@media only screen and (max-width: 1025px) {
+   
+   padding: 20px;
+   
+   }
+
 @media only screen and (max-width: 933px) {  
     padding: 15px;
 }
@@ -13,6 +19,13 @@ export const Wrapper = styled.div`
 display: grid;
 grid-gap: 40px;
 grid-template-columns: 325.5px 1fr;
+
+@media only screen and (max-width: 1025px) {
+   
+    grid-gap: 20px;
+   
+   }
+
 
 @media only screen and (max-width: 933px) {  
     grid-gap: 20px;
@@ -41,12 +54,12 @@ border-right: 1px solid var(--color-gold);
 }
 
 @media only screen and (max-width: 800px) {  
-    width: 100%;
+    /* width: 100%;
     position: relative;
   top: 0px;
-  /* left: 0px; */
-  border-right: none;
-    /* display: none; */
+
+  border-right: none; */
+    display: none;
 }
 
 `
