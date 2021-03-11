@@ -1,83 +1,89 @@
 import React from 'react'
-import { Formik } from 'formik';
+import { useFormik } from "formik";
+import * as Yup from 'yup';
 import { ContactForm } from '../Components'
 
 export function ContactFormContainer() {
+    const formik = useFormik({
+        initialValues: {
+            fullName: "",
+            email: "",
+            message: "",
+        },
+
+        validationSchema: Yup.object({
+            fullName: Yup.string()
+                .max(15, "Must be 15 characters or less")
+                .required("Required"),
+            email: Yup.string().email("Invalid email address").required("Required"),
+            message: Yup.string()
+                .min(10, "Must be atleast 10 characters or more")
+                .required("Required"),
+        }),
+
+        onSubmit: (values) => {
+            alert(JSON.stringify(values, null, 2));
+            console.log(values, "values");
+        },
+    });
+
     return (
         <ContactForm>
             <ContactForm.Headings>
                 <h2 style={{ marginTop: 0 }}>We'd love to hear from you</h2>
                 <p >For all enquiries, please enter your details in the form below.</p>
             </ContactForm.Headings>
-            <Formik
-                initialValues={{ name: '', email: '', message: '' }}
 
-                validate={values => {
-                    const errors = {};
-                    if (!values.email) {
-                        errors.email = 'Required';
-                    } else if (
-                        !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-                    ) {
-                        errors.email = 'Invalid email address';
-                    }
-                    return errors;
-                }}
-                onSubmit={(values, { setSubmitting }) => {
-                    setTimeout(() => {
-                        alert(JSON.stringify(values, null, 2));
-                        setSubmitting(false);
-                    }, 400);
-                }}
-            >
-                {({
-                    values,
-                    errors,
-                    touched,
-                    handleChange,
-                    handleBlur,
-                    handleSubmit,
-                    isSubmitting,
-                    /* and other goodies */
-                }) => (
-                    <form onSubmit={handleSubmit} autoComplete="off">
 
-                        <input
-                            type="text"
-                            name="name"
-                            placeholder="Full name"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.name}
-                        />
-                        {errors.name && touched.name && errors.name}
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Email"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.email}
-                        />
-                        {errors.email && touched.email && errors.email}
 
-                        <textarea
-                            name="message"
-                            placeholder="Message"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.message}
-                            required
-                        />
-                        <div style={{ margin: "5px 0 20px 0" }}>
-                            {errors.message && touched.message && errors.message}
-                        </div>
-                        <button type="submit" disabled={isSubmitting}>
-                            <span style={{ fontSize: "16px" }}>Send message</span>
-                        </button>
-                    </form>
-                )}
-            </Formik>
+            <form autoComplete="off" onSubmit={formik.handleSubmit}>
+
+                <input
+                    id="fullName"
+                    name="fullName"
+                    type="text"
+                    placeholder="Full Name"
+                    onChange={formik.handleChange}
+                    value={formik.values.fullName}
+
+                />
+                {formik.touched.fullName && formik.errors.fullName ? (
+                    <div>
+                        {formik.errors.fullName}
+                    </div>
+                ) : null}
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    onChange={formik.handleChange}
+                    value={formik.values.email}
+                    placeholder="Email"
+
+                />
+                {formik.touched.email && formik.errors.email ? (
+                    <div>{formik.errors.email}</div>
+                ) : null}
+
+                <textarea
+                    id="message"
+                    name="message"
+                    type="text"
+                    onChange={formik.handleChange}
+                    value={formik.values.message}
+                    placeholder="Message / reason for appointment"
+                />
+                <div style={{ margin: "5px 0 20px 0" }}>
+                    {formik.touched.message && formik.errors.message ? (
+                        <div>{formik.errors.message}</div>
+                    ) : null}
+                </div>
+                <button type="submit">
+                    <span style={{ fontSize: "16px" }}>Send message</span>
+                </button>
+            </form>
+
+
 
         </ContactForm>
     )
