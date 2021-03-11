@@ -6,7 +6,11 @@ import { ContactForm } from '../Components'
 
 if (process.browser) {
 
-    { window.alert(process.env.SERVICE_ID) }
+    {
+        window.alert(process.env.NEXT_PUBLIC_USER_ID)
+        window.alert(process.env.NEXT_PUBLIC_SERVICE_ID)
+        window.alert(process.env.NEXT_PUBLIC_TEMPLATE_ID)
+    }
 }
 
 export function ContactFormContainer() {
@@ -35,7 +39,7 @@ export function ContactFormContainer() {
             // setIsLoading(true)
             setSubmitState('Sending...')
             // template_16zvxp2
-            emailjs.send(process.env.serviceId, process.env.templateId, values, process.env.userId)
+            emailjs.send(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, values, process.env.NEXT_PUBLIC_USER_ID)
                 .then((result) => {
                     // setIsLoading(false)
                     setSubmitState('Sent successfully')
