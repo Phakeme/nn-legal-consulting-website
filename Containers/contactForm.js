@@ -4,10 +4,10 @@ import { useFormik } from "formik";
 import * as Yup from 'yup';
 import { ContactForm } from '../Components'
 
-// if (process.browser) {
+if (process.browser) {
 
-//     { window.alert(process.env.serviceId) }
-// }
+    { window.alert(process.env.SERVICE_ID) }
+}
 
 export function ContactFormContainer() {
 
