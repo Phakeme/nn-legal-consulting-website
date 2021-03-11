@@ -6,11 +6,6 @@ import { ContactForm } from '../Components'
 
 if (process.browser) {
 
-    {
-        window.alert(process.env.NEXT_PUBLIC_USER_ID)
-        window.alert(process.env.NEXT_PUBLIC_SERVICE_ID)
-        window.alert(process.env.NEXT_PUBLIC_TEMPLATE_ID)
-    }
 }
 
 export function ContactFormContainer() {
@@ -49,7 +44,11 @@ export function ContactFormContainer() {
                 }, (error) => {
                     console.log(error.text);
                     // setIsLoading(false)
-
+                    {
+                        window.alert(process.env.NEXT_PUBLIC_SERVICE_ID)
+                        window.alert(process.env.NEXT_PUBLIC_TEMPLATE_ID)
+                        window.alert(process.env.NEXT_PUBLIC_USER_ID)
+                    }
                     setSubmitState('Something went wrong')
                 });
             resetForm()
@@ -63,9 +62,9 @@ export function ContactFormContainer() {
                 <p >For all enquiries, please enter your details in the form below.</p>
             </ContactForm.Headings>
 
+            {/* autoComplete="off" */}
 
-
-            <form autoComplete="off" onSubmit={formik.handleSubmit}>
+            <form onSubmit={formik.handleSubmit}>
 
                 <input
                     id="name"
