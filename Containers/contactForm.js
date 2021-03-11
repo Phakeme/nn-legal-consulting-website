@@ -1,19 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
+import emailjs from 'emailjs-com';
 import { useFormik } from "formik";
 import * as Yup from 'yup';
 import { ContactForm } from '../Components'
 
+// if (process.browser) {
+
+//     { window.alert(process.env.serviceId) }
+// }
+
 export function ContactFormContainer() {
+
+    // const [isLoading, setIsLoading] = useState(false)
+    const [submitState, setSubmitState] = useState('Send message')
+
     const formik = useFormik({
         initialValues: {
-            fullName: "",
+            name: "",
             email: "",
             message: "",
         },
 
         validationSchema: Yup.object({
-            fullName: Yup.string()
-                .max(15, "Must be 15 characters or less")
+            name: Yup.string()
+                .max(25, "Must be 25 characters or less")
                 .required("Required"),
             email: Yup.string().email("Invalid email address").required("Required"),
             message: Yup.string()
@@ -21,9 +31,24 @@ export function ContactFormContainer() {
                 .required("Required"),
         }),
 
-        onSubmit: (values) => {
-            alert(JSON.stringify(values, null, 2));
-            console.log(values, "values");
+        onSubmit: (values, { resetForm }) => {
+            // setIsLoading(true)
+            setSubmitState('Sending...')
+            // template_16zvxp2
+            emailjs.send(process.env.serviceId, process.env.templateId, values, process.env.userId)
+                .then((result) => {
+                    // setIsLoading(false)
+                    setSubmitState('Sent successfully')
+                    // alert(result.text);
+                    //   setSubmitState('Message sent successfully :)')
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                    // setIsLoading(false)
+
+                    setSubmitState('Something went wrong')
+                });
+            resetForm()
         },
     });
 
@@ -39,17 +64,17 @@ export function ContactFormContainer() {
             <form autoComplete="off" onSubmit={formik.handleSubmit}>
 
                 <input
-                    id="fullName"
-                    name="fullName"
+                    id="name"
+                    name="name"
                     type="text"
                     placeholder="Full Name"
                     onChange={formik.handleChange}
-                    value={formik.values.fullName}
+                    value={formik.values.name}
 
                 />
-                {formik.touched.fullName && formik.errors.fullName ? (
+                {formik.touched.name && formik.errors.name ? (
                     <div>
-                        {formik.errors.fullName}
+                        {formik.errors.name}
                     </div>
                 ) : null}
                 <input
@@ -78,9 +103,18 @@ export function ContactFormContainer() {
                         <div>{formik.errors.message}</div>
                     ) : null}
                 </div>
-                <button type="submit">
-                    <span style={{ fontSize: "16px" }}>Send message</span>
-                </button>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: 'space-between' }}>
+                    <button type="submit" >
+                        <span style={{ fontSize: "16px" }}>{submitState}</span>
+                    </button>
+                    {submitState === "Something went wrong" ? (
+                        <div>Please send direct email. </div>
+                    ) : null}
+                    {submitState === "Sent successfully" ? (
+                        <div>We will contact you shortly. </div>
+                    ) : null}
+
+                </div>
             </form>
 
 
