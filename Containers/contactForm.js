@@ -4,13 +4,8 @@ import { useFormik } from "formik";
 import * as Yup from 'yup';
 import { ContactForm } from '../Components'
 
-if (process.browser) {
-
-}
-
 export function ContactFormContainer() {
 
-    // const [isLoading, setIsLoading] = useState(false)
     const [submitState, setSubmitState] = useState('Send message')
 
     const formik = useFormik({
@@ -31,25 +26,14 @@ export function ContactFormContainer() {
         }),
 
         onSubmit: (values, { resetForm }) => {
-            // setIsLoading(true)
             setSubmitState('Sending...')
-            // template_16zvxp2
             emailjs.send(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, values, process.env.NEXT_PUBLIC_USER_ID)
                 .then((result) => {
-                    // setIsLoading(false)
                     setSubmitState('Sent successfully')
-                    // alert(result.text);
-                    //   setSubmitState('Message sent successfully :)')
-                    console.log(result.text);
+                    return result.text
                 }, (error) => {
-                    console.log(error.text);
-                    // setIsLoading(false)
-                    {
-                        window.alert(process.env.NEXT_PUBLIC_SERVICE_ID)
-                        window.alert(process.env.NEXT_PUBLIC_TEMPLATE_ID)
-                        window.alert(process.env.NEXT_PUBLIC_USER_ID)
-                    }
                     setSubmitState('Something went wrong')
+                    return error.text
                 });
             resetForm()
         },
@@ -62,10 +46,7 @@ export function ContactFormContainer() {
                 <p >For all enquiries, please enter your details in the form below.</p>
             </ContactForm.Headings>
 
-            {/* autoComplete="off" */}
-
-            <form onSubmit={formik.handleSubmit}>
-
+            <form autoComplete="off" onSubmit={formik.handleSubmit}>
                 <input
                     id="name"
                     name="name"
@@ -73,13 +54,14 @@ export function ContactFormContainer() {
                     placeholder="Full Name"
                     onChange={formik.handleChange}
                     value={formik.values.name}
-
                 />
+
                 {formik.touched.name && formik.errors.name ? (
                     <div>
                         {formik.errors.name}
                     </div>
                 ) : null}
+
                 <input
                     id="email"
                     name="email"
@@ -89,6 +71,7 @@ export function ContactFormContainer() {
                     placeholder="Email"
 
                 />
+
                 {formik.touched.email && formik.errors.email ? (
                     <div>{formik.errors.email}</div>
                 ) : null}
@@ -119,9 +102,6 @@ export function ContactFormContainer() {
 
                 </div>
             </form>
-
-
-
         </ContactForm>
     )
 }
