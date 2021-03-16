@@ -116,3 +116,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: var(--color-gold);
 }
+
+.body{
+  text-align: justify;
+}

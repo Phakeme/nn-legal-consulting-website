@@ -1,7 +1,7 @@
 import React from 'react'
 import { About } from '../Components'
-import { Link } from 'react-scroll'
 import LinkMenu from '../Components/about/LinkMenu'
+import { AboutUs } from './aboutUs/aboutUs'
 
 export function AboutContainer() {
 
@@ -9,33 +9,27 @@ export function AboutContainer() {
         <About>
             <About.Container>
                 <About.Wrapper>
+
                     <About.Sidebar>
-
                         <LinkMenu />
-
                     </About.Sidebar>
-                    <About.DocWrapper>
-                        <h2 name="about">ABOUT US</h2>
-                        <h3 name="WhoWeAre">Who we are?</h3>
-                        <p className="body">NN Legal Consulting is a well-established, fully black-owned and small-sized business and law consultancy practice with prospective national capacity through network of qualified and well capacitated professionals, enabling us substantial influence throughout the country. Our services range is clustered into Legal Consulting as well as Enterprise Consulting, where we offer fully customized professional and efficient services to our diverse business clients (b2b), individuals from all walks of life and public sector organisations.</p>
 
-                        <h3 name="OurClients">Our clients?</h3>
-                        <p className="body">Business to business clients include law firms where we provide them with support services ranging from dedicated correspondence services, companies that operates within communities where there are existing or potential conflicts or environmental issues, general business where we provide legal assistance related to operations, transitions and transactions.<br /><br />
-                        Individual clients who are given full legal assistance internally and through our panel where we save them time and money through pre-consultations and predetermine their matters and the exact practitioner required and solutions without incurring unnecessary costs of pillar to posts. <br /><br />
-                        Public Sector Organisations or the government units serve a broad mandate to a broad stakeholder and thus faces lot of costly deficiencies and opposition with stricter accountability. Our anticipated role to this sector is that of offering one stop solutions including legal assistance, applied research and partnering in planning, executing and evaluating intervention programs.
-</p>
-                        <h3 name="CorporateCitizenship?">Corporate citizenship?</h3>
-                        <p className="body">As an entity that operates within the legal fraternity we believe that we have more responsibility to adhere to and a role to play in promoting ethical behaviour and social responsibility. We aim to facilitate and promote youth empowerment and access to justice for the vulnerable communities as a form of poverty resistance and eradication. Our alliance with the Flowers of Hope foundation exists in order to facilitate mass engagement and collaboration in ensuring that our vision for a broadly accessible platform where structured programmes will be planned, funded, executed and evaluated is achieved.</p>
-                        <h3 name="OurFocus&Approach?">Our focus and approach?</h3>
-                        <p className="body">NN legal Consulting is a customer-oriented company willing to tailor make most, if not all its services to provide rapid response to its clients. This innovation is achieved through swift response through our panel of qualified and experienced practitioners providing relevant and outstanding skills and expertise in order to ensure that the solutions we provide are efficient and geared up-to our reputation standards.</p>
+                    <About.DocWrapper>
+                        <AboutUs />
+
                         <h2 name="WHY-CHOOSE-US">WHY CHOOSE US</h2>
                         <h3 name="OurCorrespondentServices">Our Correspondent services: </h3>
                         <ul>
                             <li>Efficient, cost-effective and accurately executed.</li>
-                            <li>We have a fully dedicated correspondence services office and we specialize in it </li>
-                            <li>We provide peace of mind through a flexible rapid correspondent team which you can always have in your speed dial.</li>
+
+                            <li>We have a fully dedicated correspondence services office and we specialize in it.</li>
+
+                            <li>We provide peace of mind through a flexible and rapid correspondent team which you can always have in your speed dial.</li>
+
                             <li>We have a well capacitated multidisciplinary and professional team.</li>
-                            <li>We save your firm from taxes, employees benefits and or human resource issues.</li>
+
+                            <li>We save your firm from taxes, employees’ benefits and or human resource issues.</li>
+
                             <li>Our arrangement and contracts enables flexibility on work scopes, scalability of activities and reasonable termination when no longer required.</li>
                         </ul>
                         <h3 name="OurLegalServices">Our Legal services</h3>
@@ -45,9 +39,10 @@ export function AboutContainer() {
                         </ul>
                         <h3 name="OurEnterpriseServices">Our Enterprise Services</h3>
                         <ul>
-                            <li>We are a results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients. </li>
-                            <li>Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction.</li>
+                            <li>We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine.</li>
+                            <li>We reach above and beyond for our clients, bringing them tried and proven solutions, representation and advice which has been tailored with each client’s needs in mind with the aim to set them up for success.</li>
                         </ul>
+
                         <h2 name="EXPERTISE">EXPERTISE</h2>
                         <h3 name="CorrespondentServices">Correspondent Services:</h3>
                         <p>Our correspondent services are cost effective, efficient and accurately executed having necessary regard and detail to the instruction of the instructing attorney. <br /><br />Our core services include:</p>
