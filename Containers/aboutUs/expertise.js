@@ -1,7 +1,7 @@
 import React from 'react'
-import Data from "../../Data/aboutUs.json";
+import Data from "../../Data/expertise.json";
 
-export function AboutUs({ children }) {
+export function Expertise({ children }) {
 
     return (
         <div>
@@ -20,12 +20,12 @@ export function AboutUs({ children }) {
                             <h3 name={item.id} key={item.title}>
                                 {item.title}
                             </h3>
-
                             {item.paragraphs.map((item, index) => (
-
-                                <p className="body" key={index}>{item.paragraph}</p>
+                                <div key={index} className="">
+                                    <p className="body" key={index}>{item.paragraph}</p>
+                                    {item.services ? <ul>{item.services.map((item, index) => (<li key={index}>{item.service}</li>))}</ul> : null}
+                                </div>
                             ))}
-
                         </div>
                     ))}
 

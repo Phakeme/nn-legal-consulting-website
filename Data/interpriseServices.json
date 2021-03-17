@@ -1,0 +1,224 @@
+[
+    {
+        "id": "ENTERPRISE-SERVICES",
+        "title": "ENTERPRISE SERVICES",
+        "subSections": [
+            {
+                "id": "SocialEngagement",
+                "title": "Social Engagement Facilitation (Accredited)",
+                "paragraphs": [
+                    {
+                        "paragraph": "It is essential for government and private sector to ensure that social engagement facilitation and stakeholder engagement takes place before implementation of any responsible project or socially effective programme as a mean of good governance and thus to ensure positive impact, stakeholder cooperation and maximized effectiveness.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "NN Legal Consulting offers professional and accredited Social Engagement Facilitation services ensuring that there is adequate social facilitation and stakeholder engagement (social engagement) in order to ensure seamless execution of projects and programmes and a total buy in from all social partners. Key stakeholders includes government, civil society, private sector and labour where there’s a need for a factual based mutual trust and common ground.",
+                        "services": null
+                    }
+                ]
+            },
+            {
+                "id": "R&D",
+                "title": "Rerseach And Development Services (R&D)",
+                "paragraphs": [
+                    {
+                        "paragraph": "We have a dynamic multi-disciplinary team comprising of internal and external specialists who are equipped to initiate the entire research and development project cycles, from planning, implementation and administration up to closure delivering highly innovative, cost-effective and high quality research and development solutions for our clients. Our key strength is the ability to transform a strategy into action with measurable results.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "Core services include: Program Development (also Turnkeys)",
+                        "services": [
+                            {
+                                "service": "Applied Research & Analysis pertaining: local & global socioeconomic surveys, emergent policy issues, performance capacity limitations and problems in the sectors."
+                            },
+                            {
+                                "service": "Impact (and incidents) assessments."
+                            },
+                            {
+                                "service": "Policy & Charters Elucidation and Administration."
+                            },
+                            {
+                                "service": "Concept Design, Planning and Profiling."
+                            },
+                            {
+                                "service": "Stakeholder Coordination and Cohesion (facilitating mediations)."
+                            },
+                            {
+                                "service": "Resource Mobilization."
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Project Research Administration and Development (also Turnkeys)",
+                        "services": [
+                            {
+                                "service": "Feasibility study."
+                            },
+                            {
+                                "service": "Project Planning."
+                            },
+                            {
+                                "service": "Project Lifecycle Management."
+                            },
+                            {
+                                "service": "Project appraisals."
+                            },
+                            {
+                                "service": "Interventions (Rescue efforts for gaps, crisis and deficiencies)."
+                            },
+                            {
+                                "service": "Process developments and optimisations."
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Operation optimisation (also Turnkeys)",
+                        "services": [
+                            {
+                                "service": "Process Optimisation (lean alignment)."
+                            },
+                            {
+                                "service": "Interventions & Value for Customer creation (Identifying gaps and implementing Rescue efforts for gaps, crisis and deficiencies) e.g. customers stock returns / failed deliveries vs. customer services = customer oriented operation solution."
+                            },
+                            {
+                                "service": "Sweet Spot Migration."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "acquisition",
+                "title": "Mergers & Acquisition Consulting",
+                "paragraphs": [
+                    {
+                        "paragraph": "Business Diversification (also through acquiring of existing businesses)",
+                        "services": [
+                            {
+                                "service": "New markets."
+                            },
+                            {
+                                "service": "New products and or services."
+                            },
+                            {
+                                "service": "Streamlining."
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Portfolio Profiling, Administration and Management.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "Developing Supply-Chains.",
+                        "services": [
+                            {
+                                "service": "Optimised Strategic Sourcing for one or more companies or departments that is aimed at enhanced buying power."
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Developing Value-Chains.",
+                        "services": [
+                            {
+                                "service": "Strategic Business Units Consolidation aimed at enhanced economics of scale gains and efficiency."
+                            },
+                            {
+                                "service": "Shielding Ideas / Ventures."
+                            },
+                            {
+                                "service": "Critique Reviews."
+                            },
+                            {
+                                "service": "Advisory, Representation and Mentorship."
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Drafting of merger agreements.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "Statutory compliance in the event of imminent Mergers.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "Application for Merger Approvals.",
+                        "services": null
+                    }
+                ]
+            },
+            {
+                "id": "SkillsDevelopment",
+                "title": "Skills Development",
+                "paragraphs": [
+                    {
+                        "paragraph": "NN Legal Consulting is a firm that believes in justice and equality and believes that one of the fundamental justice solutions is addressing the country’s ills including Unemployment, economic exclusion, Drug abuse, Unplanned pregnancies through robust interventions into skills development and effectiveness by facilitating various levels of collaborations with government, business sectors, education and training sectors, and other relevant stakeholders.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "These consolidated efforts will lead to a development of clearly defined skills needed by the markets which will assist in restructuring the curriculums by the learning institutions and also convince the industries to open doors for practical skills trainings as well as mobilize government to structure appropriate funding for skills development.",
+                        "services": null
+                    }
+                ]
+            },
+            {
+                "id": "CommercialPractice",
+                "title": "Commercial Practice",
+                "paragraphs": [
+                    {
+                        "paragraph": "We assist clients with all commercial and corporate aspects of their business. Commercial transactions are the heartbeat of the firm and the majority of our panel of attorneys are primarily involved in assisting clients with a wide variety of commercial transactions. Our services are not limited to the drafting and settlement of a composite range of commercial contracts but also include advising on the tax and other implications of commercial transactions, conducting due diligence investigations, advising on the implication of Broad-Based Black Economic Empowerment and assisting with the implementation of commercial transactions.",
+                        "services": null
+                    }
+                ]
+            },
+            {
+                "id": "Secretarial",
+                "title": "Company & Secretarial Services",
+                "paragraphs": [
+                    {
+                        "paragraph": "Company secretarial services have been redefined in the modern corporate world and it just does not end with filing and corresponding but also includes statutory compliance issues which form the foundation of and determines the direction of any company. We cover a full spectrum of secretarial services including:",
+                        "services": [
+                            {
+                                "service": "company registrations,"
+                            },
+                            {
+                                "service": "company law compliance,"
+                            },
+                            {
+                                "service": "company records,"
+                            },
+                            {
+                                "service": "Annual General Meeting,"
+                            },
+                            {
+                                "service": "Advisory Role"
+                            },
+                            {
+                                "service": "Tasks Completion"
+                            },
+                            {
+                                "service": "Planning and administrative services in respect of trusts and estates,"
+                            },
+                            {
+                                "service": "The formation of trusts,"
+                            },
+                            {
+                                "service": "Appointment as an independent trustee on our clients’ trusts,"
+                            },
+                            {
+                                "service": "The formation and conversion of companies and close corporations,"
+                            },
+                            {
+                                "service": "The company secretarial implementation of shareholders’ and members’ agreements, and"
+                            },
+                            {
+                                "service": "Submissions to and communication with the Masters of High Court, the Registrar of Companies and Close Corporations (CIPC)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

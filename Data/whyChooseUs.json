@@ -1,0 +1,56 @@
+[
+    {
+        "id": "WHY-CHOOSE-US",
+        "title": "WHY CHOOSE US",
+        "subSections": [
+            {
+                "id": "OurCorrespondentServices",
+                "title": "Our Correspondent services:",
+                "services": [
+                    {
+                        "service": "Efficient, cost-effective and accurately executed."
+                    },
+                    {
+                        "service": "We have a fully dedicated correspondence services office and we specialize in it."
+                    },
+                    {
+                        "service": "We provide peace of mind through a flexible and rapid correspondent team which you can always have in your speed dial."
+                    },
+                    {
+                        "service": "We have a well capacitated multidisciplinary and professional team"
+                    },
+                    {
+                        "service": "We save your firm from taxes, employees’ benefits and or human resource issues."
+                    },
+                    {
+                        "service": "Our arrangement and contracts enables flexibility on work scopes, scalability of activities and reasonable termination when no longer required."
+                    }
+                ]
+            },
+            {
+                "id": "OurLegalServices",
+                "title": "Our Legal services",
+                "services": [
+                    {
+                        "service": "We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine."
+                    },
+                    {
+                        "service": "We reach above and beyond for our clients, bringing them tried and proven solutions, representation and advice which has been tailored with each client’s needs in mind with the aim to set them up for success."
+                    }
+                ]
+            },
+            {
+                "id": "OurEnterpriseServices",
+                "title": "Our Enterprise services",
+                "services": [
+                    {
+                        "service": "We are a results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients. "
+                    },
+                    {
+                        "service": "Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction."
+                    }
+                ]
+            }
+        ]
+    }
+]
