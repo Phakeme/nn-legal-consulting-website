@@ -5,6 +5,7 @@ import { NavbarContainer } from "../Containers/navbar"
 import { AboutContainer } from "../Containers/about"
 import { ContactContainer } from "../Containers/contact"
 import { HeroContainer } from "../Containers/hero"
+import { FounderContainer } from '../Containers/founder'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <NavbarContainer />
       <HeroContainer />
+      <FounderContainer />
       <AboutContainer />
       <ContactContainer />
       <FooterContainer />
