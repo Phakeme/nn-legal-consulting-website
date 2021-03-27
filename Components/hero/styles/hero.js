@@ -65,6 +65,8 @@ export const LinkItem = styled.div`
 
 export const Showcase = styled.div`
 display: flex;
+/* background-color: red; */
+width: 100%;
 align-items: center;
 justify-content: center;
  background-size: cover;

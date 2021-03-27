@@ -138,3 +138,24 @@ button[type="submit"]:hover {
         padding: 0 66px;
 }
 }
+
+.slide-container{
+  max-width: 701px;
+  height: 100%;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.each-slide span {
+  /* padding: 20px; */
+  /* font-size: 20px; */
+  /* background: #efefef; */
+  /* text-align: center; */
+}
+
