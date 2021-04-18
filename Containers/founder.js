@@ -8,7 +8,7 @@ export function FounderContainer() {
                 <Founder.Quote>
                     <Founder.ImageWrapper />
                     <div className="quote-section">
-                        <h2 className="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla illo officiis ea sint necessitatibus laboriosam!</h2>
+                        <h2 className="quote">Intentionality in putting ourselves in a position where we stand a chance of triumph is sometimes all a victory takes!</h2>
                         <p> <strong>Mbali Ngubo  </strong> Director</p>
                     </div>
                 </Founder.Quote>

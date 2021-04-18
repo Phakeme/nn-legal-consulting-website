@@ -2,7 +2,8 @@ import React from 'react'
 import { Hero } from '../Components'
 
 import { Link } from 'react-scroll'
-import SimpleSlider from './imageSlider'
+// import SimpleSlider from './imageSlider'
+import Carousel from 'react-bootstrap/Carousel'
 
 export function HeroContainer({ children }) {
     return (
@@ -16,7 +17,7 @@ export function HeroContainer({ children }) {
                             }}>
                                 <Hero.LinkItemText >
                                     <div>
-                                        <h2>Correspondent Services</h2>
+                                        <h3>Correspondent Services</h3>
                                     </div>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
@@ -26,7 +27,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h2>legal services</h2>
+                                    <h3>legal services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
@@ -35,7 +36,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h2>Enterprise services</h2>
+                                    <h3>Enterprise services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
@@ -45,20 +46,58 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h2>why choose us </h2>
+                                    <h3>why choose us </h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
                     </Hero.Links>
+                    <div className="sliderStatic">
+                        <Hero.Showcase style={{
+                            backgroundImage: "url(" + "https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=905&q=80" + ")",
+                        }}>
+                            <Link to="contact" spy={true} duration={0} smooth={true} offset={0} >
+                                <Hero.Button>
+                                    <span>Contact us</span>
+                                </Hero.Button>
+                            </Link>
+                        </Hero.Showcase>
+                    </div>
+                    <div className="sliderDisplay">
+                        <Hero.Showcase>
+                            {/* <SimpleSlider /> */}
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="/image.jpg"
+                                        alt="First slide"
+                                    />
 
-                    <Hero.Showcase>
-                        <SimpleSlider></SimpleSlider>
-                        {/* <Link to="contact" spy={true} duration={0} smooth={true} offset={0} >
-                            <Hero.Button>
-                                <h3>Contact us</h3>
-                            </Hero.Button>
-                        </Link> */}
-                    </Hero.Showcase>
+                                    <Carousel.Caption>
+                                        <Link to="contact" spy={true} duration={0} smooth={true} offset={0} >
+                                            <Hero.Button>
+                                                <span>Contact us</span>
+                                            </Hero.Button>
+                                        </Link>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src="/image2.jpg"
+                                        alt="First slide"
+                                    />
+                                    <Carousel.Caption>
+                                        <Link to="contact" spy={true} duration={0} smooth={true} offset={0} >
+                                            <Hero.Button>
+                                                <span>Contact us</span>
+                                            </Hero.Button>
+                                        </Link>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                            </Carousel>
+                        </Hero.Showcase>
+                    </div>
                 </Hero.Inner>
             </Hero.Wrapper>
         </Hero>

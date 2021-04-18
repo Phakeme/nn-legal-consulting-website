@@ -8,11 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "dotenv": "^8.2.0",
     "emailjs-com": "^2.6.4",
     "formik": "^2.2.6",
     "next": "10.0.7",
     "react": "17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",
     "react-scroll": "^1.8.1",

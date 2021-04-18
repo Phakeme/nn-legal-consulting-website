@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-    height: 600px;
+    height: 600px;  
     @media only screen and (max-width: 933px) {  
         height: fit-content;
 }
@@ -22,6 +22,7 @@ export const Links = styled.div`
  grid-template-columns: 1fr 1fr;
  grid-template-rows: 1fr 1fr;
  height: 100%;
+ z-index: 100;
 
  @media only screen and (max-width: 633px) {  
     grid-template-columns: 1fr;
@@ -38,7 +39,6 @@ export const LinkItemText = styled.div`
  font-size: 20px;
  height: 100%;
  width: 100%;
- /* background-color: red; */
  > h2 {
     text-transform: capitalize;
  }
@@ -58,8 +58,8 @@ export const LinkItem = styled.div`
  :hover{
     transform: scale(1.1);
     box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
--webkit-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
--moz-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
  }
  `
 
@@ -67,6 +67,7 @@ export const Showcase = styled.div`
 display: flex;
 /* background-color: red; */
 width: 100%;
+height: 100%;
 align-items: center;
 justify-content: center;
  background-size: cover;
@@ -86,6 +87,7 @@ export const Button = styled.div`
   color: var(--color-white);
     background-color: var(--color-blue);
     padding: 10px 20px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;

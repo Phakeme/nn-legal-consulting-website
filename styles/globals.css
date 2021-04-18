@@ -126,6 +126,7 @@ button[type="submit"]:hover {
 }
 
 .quote{
+    line-height: 40px;
     font-size: 1.4rem;
     font-style: italic;
     font-family: 'Playfair Display', serif;
@@ -142,6 +143,35 @@ button[type="submit"]:hover {
 .slide-container{
   max-width: 701px;
   height: 100%;
+
+  /* @media only screen and (max-width: 1350px) {  
+
+    display:none;
+ } */
+
+}
+
+.sliderStatic {
+    height: 100%;
+    /* background-color: orangered; */
+    display: none;
+  }
+
+@media only screen and (max-width: 1360px) {
+  .sliderStatic {
+    display: inline;
+  }
+}
+
+.sliderDisplay {
+   
+  /* display: none; */
+}
+
+@media only screen and (max-width: 1360px) {
+  .sliderDisplay {
+    display: none;
+  }
 }
 
 .each-slide > div {
@@ -159,3 +189,25 @@ button[type="submit"]:hover {
   /* text-align: center; */
 }
 
+
+.carousel {
+  /* width:900px; */
+  height:100%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1350px) {
+  .carousel {
+    
+    /* opacity: 0;
+    height: 10px;
+    width: 0; */
+    display: none;
+  }
+}
+
+.carousel-caption{
+  margin: auto;
+  padding: auto;
+  height: 55%;
+}

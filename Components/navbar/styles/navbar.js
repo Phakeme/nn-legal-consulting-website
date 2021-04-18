@@ -5,10 +5,10 @@ export const NavbarWrapper = styled.nav`
     padding: 30px 0;
     margin: auto;
     width:100%;
+
     @media only screen and (max-width: 933px) {  
        
         padding: 30px 1.5rem;
-        /* background-color: red; */
 }
 
 @media only screen and (max-width: 800px) {  
