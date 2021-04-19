@@ -5,7 +5,7 @@
         "subSections": [
             {
                 "id": "OurCorrespondentServices",
-                "title": "Our Correspondent services:",
+                "title": "Our Correspondent Services:",
                 "services": [
                     {
                         "service": "Efficient, cost-effective and accurately executed."
@@ -29,7 +29,7 @@
             },
             {
                 "id": "OurLegalServices",
-                "title": "Our Legal services",
+                "title": "Our Legal Services",
                 "services": [
                     {
                         "service": "We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine."
@@ -41,7 +41,7 @@
             },
             {
                 "id": "OurEnterpriseServices",
-                "title": "Our Enterprise services",
+                "title": "Our Enterprise Services",
                 "services": [
                     {
                         "service": "We are a results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients. "

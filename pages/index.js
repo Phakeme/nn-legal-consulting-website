@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>NN Legal Consulting. Your legal minds with a personal touch</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-16x16.png" />
       </Head>
       <NavbarContainer />
       <HeroContainer />

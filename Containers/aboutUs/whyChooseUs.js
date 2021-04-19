@@ -8,7 +8,7 @@ export function WhyChooseUs({ children }) {
             {Data.map((item, index) => (
                 <div key={item.title} name={item.id}>
                     <h2
-                        style={{ marginTop: "0", marginBottom: "40px" }}
+                        style={{ marginTop: "10", marginBottom: "20px" }}
                         key={item.title}
                     >
                         {item.title}

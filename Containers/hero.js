@@ -27,7 +27,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h3>legal services</h3>
+                                    <h3>Legal Services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
@@ -36,7 +36,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h3>Enterprise services</h3>
+                                    <h3>Enterprise Services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
@@ -46,7 +46,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h3>why choose us </h3>
+                                    <h3>Why Choose Us </h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>

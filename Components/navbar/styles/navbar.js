@@ -7,18 +7,16 @@ export const NavbarWrapper = styled.nav`
     width:100%;
 
     @media only screen and (max-width: 933px) {  
-       
-        padding: 30px 1.5rem;
+    padding: 30px 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {  
-       position: sticky;
-       top: 0;
-       padding: 10px 16px;
-       /* background-color: red; */
-       z-index: 200;
-       background-color: var(--color-blue);
-       box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
+position: sticky;
+top: 0;
+padding: 10px 16px;
+z-index: 200;
+background-color: var(--color-blue);
+box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
 -webkit-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
 -moz-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
 }
@@ -67,7 +65,6 @@ export const Qoute = styled.h3`
  display: none
 }
 `
-
 export const ToTop = styled.button`
   position: fixed;
   bottom: 20px;

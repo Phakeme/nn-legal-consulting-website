@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-    height: 600px;  
+    height: 600px;
+
     @media only screen and (max-width: 933px) {  
-        height: fit-content;
+    height: fit-content;
 }
 `
 
 export const Inner = styled.div`
- display: grid;
- grid-template-columns: 600px 1fr;
+display: grid;
+grid-template-columns: 600px 1fr;
 height: 100%;
 
 @media only screen and (max-width: 933px) {  
@@ -65,14 +66,13 @@ export const LinkItem = styled.div`
 
 export const Showcase = styled.div`
 display: flex;
-/* background-color: red; */
 width: 100%;
 height: 100%;
 align-items: center;
 justify-content: center;
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
  @media only screen and (max-width: 933px) {  
     height: 300px;
