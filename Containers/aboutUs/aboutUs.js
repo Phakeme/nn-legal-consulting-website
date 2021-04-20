@@ -22,8 +22,10 @@ export function AboutUs({ children }) {
                             </h3>
 
                             {item.paragraphs.map((item, index) => (
-
-                                <p className="body" key={index}>{item.paragraph}</p>
+                                <div key={index} className="">
+                                    <p className="body" key={index}>{item.paragraph}</p>
+                                    {item.services ? <ul>{item.services.map((item, index) => (<li key={index}>{item.service}</li>))}</ul> : null}
+                                </div>
                             ))}
 
                         </div>

@@ -23,6 +23,7 @@ export function AboutContainer() {
                         <Expertise />
                         <EnterpriseServices />
                     </About.DocWrapper>
+
                 </About.Wrapper>
             </About.Container>
         </About >

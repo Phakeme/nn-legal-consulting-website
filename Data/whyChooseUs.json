@@ -6,6 +6,7 @@
             {
                 "id": "OurCorrespondentServices",
                 "title": "Our Correspondent Services:",
+                "paragraph": null,
                 "services": [
                     {
                         "service": "Efficient, cost-effective and accurately executed."
@@ -17,7 +18,7 @@
                         "service": "We provide peace of mind through a flexible and rapid correspondent team which you can always have in your speed dial."
                     },
                     {
-                        "service": "We have a well capacitated multidisciplinary and professional team"
+                        "service": "We have a well capacitated multidisciplinary and professional team.   "
                     },
                     {
                         "service": "We save your firm from taxes, employees’ benefits and or human resource issues."
@@ -30,7 +31,17 @@
             {
                 "id": "OurLegalServices",
                 "title": "Our Legal Services",
+                "paragraph": null,
                 "services": [
+                    {
+                        "service": "We offer our legal professional clients company secretarial, reception and virtual office management services as well as paralegal services, and this in turn relieves our clients from the concerns of daily operations of the business while allowing them to focus on excelling in court and win their cases."
+                    },
+                    {
+                        "service": "We are an association of experienced and well-capacitated legal and business academics with a backing of an experienced and dynamic panel of attorneys. This allows us to provide excellent, efficient and ethical operational legal services in a wide range of areas of the law while allowing our clients to focus on their core business of lending clients and winning their cases."
+                    },
+                    {
+                        "service": "We have dedicated research subscriptions with the likes of lexis nexis which in turn puts our legal researchers in the position to give relevant, well-researched and up-to date research services."
+                    },
                     {
                         "service": "We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine."
                     },
@@ -42,12 +53,13 @@
             {
                 "id": "OurEnterpriseServices",
                 "title": "Our Enterprise Services",
+                "paragraph": null,
                 "services": [
                     {
                         "service": "We are a results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients. "
                     },
                     {
-                        "service": "Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction."
+                        "service": "Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction. "
                     }
                 ]
             }

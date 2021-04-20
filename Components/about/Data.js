@@ -6,7 +6,8 @@ export const Data = [
             { to: "WhoWeAre", link: "Who we are?" },
             { to: "OurClients", link: "Our Clients?" },
             { to: "CorporateCitizenship?", link: "Corporate Citizenship?" },
-            { to: "OurFocus&Approach?", link: "Our Focus & Approach?" }
+            { to: "OurFocus&Approach?", link: "Our Focus & Approach?" },
+            { to: "OurValues", link: "Our Values" }
         ]
     },
     {
