@@ -13,12 +13,13 @@ export const NavbarWrapper = styled.nav`
 @media only screen and (max-width: 800px) {  
 position: sticky;
 top: 0;
-padding: 10px 16px;
+height: 70px;
+padding: 5px 16px 0 16px;
 z-index: 200;
 background-color: var(--color-blue);
-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
--webkit-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
--moz-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.71);
+box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.30);
+-webkit-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.30);
+-moz-box-shadow: -1px 6px 19px -1px rgba(0,0,0,0.30);
 }
 `
 
@@ -27,10 +28,14 @@ export const Inner = styled.div`
     justify-content: space-between;
     align-items: center;
     width:100%;   
+    height:60px;   
 `
 
 export const Logo = styled.img`
     height: 100%;
+    @media (max-width: 800px){
+        height: 45px;
+    }
 `
 
 export const Icon = styled.div`
@@ -49,10 +54,8 @@ export const Qoute = styled.h3`
     margin-bottom: 0;
     font-weight: 100;
 
-    @media only screen and (max-width: 600px) {  
-        font-size: 1rem;
-        line-height: 27px;
-        padding: 0 66px;
+    @media only screen and (max-width: 800px) {  
+        display: none;
 }
 
 @media only screen and (max-width: 411px) {  
@@ -80,4 +83,7 @@ export const ToTop = styled.button`
   color: white;
   cursor: pointer;
   border-radius: 100px;
+  @media (max-width: 800px){
+      display: none;
+  }
 `

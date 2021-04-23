@@ -121,13 +121,19 @@ button[type="submit"]:hover {
   text-align: justify;
 }
 
+@media only screen and (max-width: 1360px) {
+  h2 {
+    display: inline;
+  }
+}
+
 .quote-section{
   margin: auto 0;
 }
 
 .quote{
-    line-height: 40px;
-    font-size: 1.4rem;
+    line-height: 30px;
+    font-size: 21px;
     font-style: italic;
     font-family: 'Playfair Display', serif;
     margin-bottom: 20px;
@@ -143,17 +149,10 @@ button[type="submit"]:hover {
 .slide-container{
   max-width: 701px;
   height: 100%;
-
-  /* @media only screen and (max-width: 1350px) {  
-
-    display:none;
- } */
-
 }
 
 .sliderStatic {
     height: 100%;
-    /* background-color: orangered; */
     display: none;
   }
 

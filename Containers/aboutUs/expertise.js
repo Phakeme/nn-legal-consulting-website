@@ -1,11 +1,11 @@
 import React from 'react'
 import Data from "../../Data/expertise.json";
 
-export function Expertise({ children }) {
+export function Expertise() {
 
     return (
         <div>
-            {Data.map((item, index) => (
+            {Data.map((item) => (
                 <div key={item.title} name={item.id}>
                     <h2
                         style={{ marginTop: "10", marginBottom: "20px" }}

@@ -13,7 +13,7 @@ display: grid;
 grid-template-columns: 600px 1fr;
 height: 100%;
 
-@media only screen and (max-width: 933px) {  
+@media (max-width: 933px) {  
     grid-template-columns: 1fr;
 }
 `
