@@ -5,15 +5,92 @@
         "subSections": [
             {
                 "id": "CorrespondentServices",
-                "title": "Correspondent Services",
+                "title": "Virtual Assistant Services:",
                 "paragraphs": [
                     {
-                        "paragraph": "Our correspondent services are cost effective, efficient and accurately executed having necessary regard and detail to the instruction of the instructing attorney.",
+                        "paragraph": "All our virtual assistant services are cost effective, efficient and accurately executed having necessary regard and detail to the instruction and the needs of our clients.",
                         "services": null
                     },
                     {
-                        "paragraph": "Our core services include: ",
+                        "paragraph": "Our general virtual assistant services include:",
                         "services": [
+                            {
+                                "service": "Corresponding with clients"
+                            },
+                            {
+                                "service": "Setting/confirming appointments"
+                            },
+                            {
+                                "service": "Sending out appointments reminders"
+                            },
+                            {
+                                "service": "Following up with clients"
+                            },
+                            {
+                                "service": "Calendar management"
+                            },
+                            {
+                                "service": "Overseeing schedules"
+                            },
+                            {
+                                "service": "Email inbox management"
+                            },
+                            {
+                                "service": "File management"
+                            },
+                            {
+                                "service": "Hotel & flight booking"
+                            },
+                            {
+                                "service": "Taking minutes of meetings"
+                            },
+                            {
+                                "service": "Preparing slideshows"
+                            },
+                            {
+                                "service": "Creating & manage social media presence"
+                            },
+                            {
+                                "service": "Research, due diligence and feasibility studies"
+                            }
+                        ]
+                    },
+                    {
+                        "paragraph": "Our legal virtual assistant services focus on the stipulated areas of the law and include:",
+                        "services": [
+                            {
+                                "service": "Consultations with clients"
+                            },
+                            {
+                                "service": "Corresponding with clients"
+                            },
+                            {
+                                "service": "Setting/confirming appointments"
+                            },
+                            {
+                                "service": "Sending out appointments reminders"
+                            },
+                            {
+                                "service": "Booking travel"
+                            },
+                            {
+                                "service": "Note transcription"
+                            },
+                            {
+                                "service": "File opening and organization"
+                            },
+                            {
+                                "service": "Overseeing schedules"
+                            },
+                            {
+                                "service": "Email inbox management"
+                            },
+                            {
+                                "service": "Bookkeeping/accounting"
+                            },
+                            {
+                                "service": "Social media management"
+                            },
                             {
                                 "service": "Urgent same day issuing of documents"
                             },
@@ -27,7 +104,7 @@
                                 "service": "Issuing of action and application matters"
                             },
                             {
-                                "service": "Drawing, preparation and drafting of court files "
+                                "service": "Drawing, preparation and drafting of court files"
                             },
                             {
                                 "service": "Receipt of service of documents"
@@ -36,7 +113,7 @@
                                 "service": "Filing of pleadings and relevant court processes"
                             },
                             {
-                                "service": "Providing the instructing attorney with all documents, issued and served within 48 hours"
+                                "service": "Providing the instructing legal professional with all documents, issued and served within 48 hours"
                             },
                             {
                                 "service": "Attending to index and pagination"
@@ -48,13 +125,7 @@
                                 "service": "Attending to court to apply for trial or motion court dates"
                             },
                             {
-                                "service": "Furnishing regular and prompt progress status updates."
-                            },
-                            {
-                                "service": "Urgent matters"
-                            },
-                            {
-                                "service": "Attending to court for appearance purpose and litigation (MC & HC)"
+                                "service": "Furnishing regular and prompt progress status updates"
                             }
                         ]
                     }
@@ -65,7 +136,7 @@
                 "title": "Family Law",
                 "paragraphs": [
                     {
-                        "paragraph": "Family law regulates relations between family members whether blood related or became related by adoption, marriage, civil union or similar relationship. Our team has expertise in a wide spectrum of Family Law matters, including drafting Ante-nuptial and Post-nuptial agreements, Divorce proceedings, settlement agreements, maintenance proceedings and domestic violence proceedings.",
+                        "paragraph": "Our virtual assistants and paralegal team has expertise in a wide spectrum of Family Law matters, including drafting and registration of Ante-nuptial and Post-nuptial agreements, Divorce proceedings, settlement agreements, maintenance proceedings, domestic violence proceedings and research. Family law regulates relations between family members whether blood related or became related by adoption, marriage, civil union or similar relationship.",
                         "services": null
                     }
                 ]
@@ -75,17 +146,7 @@
                 "title": "Trusts, Wills And Estates",
                 "paragraphs": [
                     {
-                        "paragraph": "Our compassionate and experienced team has the tools and are equipped to assist our clients get their affairs in order. We understand that death is inevitable and that during such times our clients expect an ease of mind in order to grieve in peace. Our core services include drafting of and advice on wills and trusts, winding-up of estates, estate planning while remaining considerate and sensitive to the loss of a loved one.",
-                        "services": null
-                    }
-                ]
-            },
-            {
-                "id": "EmploymentLaw",
-                "title": "Employment Law",
-                "paragraphs": [
-                    {
-                        "paragraph": "Employment law regulates the many aspects of the relationship between employers and their associations and employees and trade unions. We provide a wide range of labour law services including representing our clients in enquiries, mediations, arbitrations and litigation in the CCMA, Bargaining Councils and the Labour Court, drafting and interpretation of employment contracts.",
+                        "paragraph": "We understand that death is inevitable and that during such times your clients expect an ease of mind in order to grieve in peace. Our compassionate and experienced team has the tools and are equipped to assist our clients with the process of winding of their clients’ estates either virtually or by providing paralegal services. Our core services include drafting of wills and trusts, and registration of the same, winding-up of estates, while remaining considerate and sensitive to the loss of your clients’ loved one.",
                         "services": null
                     }
                 ]
@@ -95,7 +156,7 @@
                 "title": "Commercial And Corporate Law",
                 "paragraphs": [
                     {
-                        "paragraph": "Our corporate and commercial law team is well equipped and business-minded. We are committed to giving specialized advice and drafting contracts which are clear and with little to no incomprehensible legal jargon while adhering to our pledge to remain professional. Our core services include Mergers and acquisitions advisory, Business Rescue, Liquidations, Risk management to avoid liquidation, advice regarding a recovery strategy in the event of financial strain, and propose funding solutions, establishing and implementation of a revised and chosen financial restructuring plan, Intellectual Property Law, Due Diligence, Property Law agreements, Labour Contracts and lease and/or sale contracts.",
+                        "paragraph": "We are committed to providing our business clients specialized legal advice and drafting contracts which are clear and with little to no incomprehensible legal jargon while adhering to our pledge to remain professional. Our corporate and commercial law team is well equipped and business-minded with experience in Mergers and acquisitions advisory, Conducting Due Diligence, Business Rescue, Liquidations, Risk management to avoid liquidation, advice regarding a recovery strategy in the event of financial strain, and propose funding solutions, establishment and implementation of a revised and chosen financial restructuring plan, drafting and review of employment, lease, sale, merger, Service-Level and shareholder’s agreements.",
                         "services": null
                     }
                 ]
@@ -105,7 +166,7 @@
                 "title": "Property Law",
                 "paragraphs": [
                     {
-                        "paragraph": "We provide drafting of sale and lease agreement services, handle transfers of properties, register bonds for banks and private clients, draft servitudes, insolvent and deceased estate transfers, property development consulting, due diligence, investigations and property investment feasibility studies.",
+                        "paragraph": "We provide virtual assistant and paralegal services with anything relating to the drafting of sale and lease agreement, transfers of properties, insolvent and deceased estate transfers, property development consulting, due diligence, investigations and property investment feasibility studies.",
                         "services": null
                     }
                 ]

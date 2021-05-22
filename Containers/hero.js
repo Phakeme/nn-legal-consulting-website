@@ -17,7 +17,7 @@ export function HeroContainer({ children }) {
                             }}>
                                 <Hero.LinkItemText >
                                     <div>
-                                        <h3>Correspondent Services</h3>
+                                        <h3>Virtual Assistant Services</h3>
                                     </div>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
@@ -36,7 +36,7 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h3>Enterprise Services</h3>
+                                    <h3>Paralegal Services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>

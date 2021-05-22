@@ -8,7 +8,11 @@
                 "title": "Who We Are?",
                 "paragraphs": [
                     {
-                        "paragraph": "NN Legal Consulting is a fully black-owned and small-sized business and legal consultancy practice with prospective national capacity through network of qualified and well capacitated professionals, enabling us substantial influence throughout the country. Our services range is clustered into Legal Consulting as well as Enterprise Consulting, where we offer fully customized professional and efficient services to our diverse business clients (b2b), individuals from all walks of life and public sector organisations.",
+                        "paragraph": "NN Legal Consulting is a fully black-owned legal virtual assistant, legal and enterprise consulting business with prospective national capacity through network of qualified and well capacitated professionals, enabling us substantial influence throughout the country.",
+                        "services": null
+                    },
+                    {
+                        "paragraph": "Our services range is three-fold and includes virtual assistant (remote office management) services, in-contact legal and business consulting services, as well as paralegal services where we offer fully customized professional, efficient and ethical services to our diverse business clients (b2b), sole practicing legal professionals and small law firms, and public sector organisations.",
                         "services": null
                     }
                 ]
@@ -18,16 +22,18 @@
                 "title": "Our Clients?",
                 "paragraphs": [
                     {
-                        "paragraph": "Business to business clients include sole practicing legal professionals and small-medium law firms where we provide them with support services ranging from reception and office management services, paralegal services as well as big law firms where we provide them with correspondence services, companies that operates within communities where there are existing or potential conflicts or environmental issues, general businesses where we provide legal assistance related to operations, transitions and transactions.",
-                        "services": null
-                    },
-                    {
-                        "paragraph": "Individual clients who require full legal assistance internally and through our panel where we save them time and money through pre-consultations and predetermine their matters and the exact practitioner required and solutions without incurring unnecessary costs of pillar to posts.",
-                        "services": null
-                    },
-                    {
-                        "paragraph": "Public Sector Organisations or the government units serve a broad mandate to a broader stakeholder and thus faces lot of costly deficiencies and opposition with stricter accountability. Our anticipated role to this sector is that of offering one stop solutions including legal assistance, applied research and partnering in planning, executing and evaluating intervention programs.",
-                        "services": null
+                        "paragraph": "Business to business clients include:",
+                        "services": [
+                            {
+                                "service": "Sole practicing legal professionals and small-medium law firms where we provide them with virtual assistant services including office management services and paralegal services."
+                            },
+                            {
+                                "service": "Companies that operates within communities where there are existing or potential conflicts or environmental issues where we provide virtual assistant services as well as legal and business consulting services in relation to operations, transitions and transactions."
+                            },
+                            {
+                                "service": "Public sector organisations or the government units as they serve a broad mandate to a broader stakeholder and thus face lot of costly deficiencies and opposition with stricter accountability. Our anticipated role to this sector is that of offering one stop solutions including legal assistance, paralegal services, social facilitation services, applied research and partnering in planning, executing and evaluating intervention programs."
+                            }
+                        ]
                     }
                 ]
             },
@@ -36,7 +42,7 @@
                 "title": "Corporate Citizenship?",
                 "paragraphs": [
                     {
-                        "paragraph": "As an entity that operates within the legal fraternity we believe that we have more responsibility to adhere to and a role to play in promoting ethical behaviour and social responsibility. We aim to facilitate and promote economic transformation through promoting small scale entrepreneurship, gender equality, skills development and youth empowerment, and access to justice for the vulnerable communities as a form of poverty resistance. Our alliance with the Mbalenhle Foundation exists in order to facilitate mass engagement and collaboration in ensuring that our vision for a broadly accessible platform where structured programmes will be planned, funded, executed and evaluated is achieved.",
+                        "paragraph": "As an entity that operates within the legal fraternity we believe that we have more responsibility to adhere to and a role to play in promoting ethical behaviour and social responsibility. We aim to facilitate and promote economic transformation through promoting small scale entrepreneurship, gender equality, skills development, youth economic empowerment and access to justice as a form of poverty resistance. Our alliance with the Mbalenhle Pillar Foundation exists in order to facilitate mass engagement and collaboration in ensuring that our vision for a broadly accessible platform where structured programmes will be planned, funded, executed and evaluated is achieved.",
                         "services": null
                     }
                 ]
@@ -46,7 +52,7 @@
                 "title": "Our Focus And Approach?",
                 "paragraphs": [
                     {
-                        "paragraph": "NN legal Consulting is a customer-oriented company willing to tailor make its services to provide rapid response to its clients. This innovation is achieved through swift response through our panel of qualified and experienced practitioners providing relevant and outstanding skills and expertise in order to ensure that the solutions we provide are efficient and geared up-to our reputation standards.",
+                        "paragraph": "NN legal Consulting is a customer-oriented company willing to tailor make its services to provide rapid response to its clients. This innovation is achieved through swift response through our qualified and experienced team providing relevant and outstanding skills and expertise in order to ensure that the solutions we provide are efficient and geared up-to our reputation standards.",
                         "services": null
                     }
                 ]
@@ -65,16 +71,19 @@
                                 "service": "Respect"
                             },
                             {
-                                "service": "Professionalism"
+                                "service": "Value of Information"
                             },
                             {
                                 "service": "Confidentiality"
                             },
                             {
+                                "service": "Client Satisfaction"
+                            },
+                            {
                                 "service": "Ethical Behaviour"
                             },
                             {
-                                "service": "Client Satisfaction"
+                                "service": "Professionalism"
                             },
                             {
                                 "service": "Stuff Empowerment, Training And Development"
