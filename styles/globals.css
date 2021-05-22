@@ -197,10 +197,7 @@ button[type="submit"]:hover {
 
 @media only screen and (max-width: 1350px) {
   .carousel {
-    
-    /* opacity: 0;
-    height: 10px;
-    width: 0; */
+    /* Removed*/
     display: none;
   }
 }
