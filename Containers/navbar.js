@@ -28,7 +28,7 @@ export function NavbarContainer({ children }) {
             <Navbar.Container>
                 <Navbar.Inner>
                     <Navbar.Logo alt="Text" src="/nnlegal-logo.svg" />
-                    <Navbar.Qoute>“Your legal minds with a personal touch”{ }</Navbar.Qoute>
+                    <Navbar.Qoute>“Your legal minds with a personal touch”</Navbar.Qoute>
                     <Navbar.Icon>
                         <FaBars size='2rem' onClick={showSidebar} />
                     </Navbar.Icon>

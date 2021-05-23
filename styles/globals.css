@@ -163,8 +163,8 @@ button[type="submit"]:hover {
 }
 
 .sliderDisplay {
-   
-  /* display: none; */
+   /* background-color: red; */
+   width: 100%;
 }
 
 @media only screen and (max-width: 1360px) {
@@ -188,12 +188,14 @@ button[type="submit"]:hover {
   /* text-align: center; */
 }
 
-
-.carousel {
-  /* width:900px; */
+.carousel, .item, .active {
   height:100%;
-  margin: auto;
-}
+  }
+  .carousel-inner {
+  height:100%;
+  }
+
+/*  */
 
 @media only screen and (max-width: 1350px) {
   .carousel {

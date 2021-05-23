@@ -6,75 +6,87 @@
             {
                 "id": "OurCorrespondentServices",
                 "title": "Our Virtual Assistant Services:",
-                "paragraph": null,
-                "services": [
+                "paragraphs": [
                     {
-                        "service": "Efficient, cost-effective and accurately executed."
-                    },
-                    {
-                        "service": "We will handle all your day-to-day requirements so you can focus on the more important tasks such generating revenue and expanding your business."
-                    },
-                    {
-                        "service": "We will invoice for the actual time spent on your instruction/project so no idle time is billed."
-                    },
-                    {
-                        "service": "We pay our own expenses so no need for paying taxes, employees’ benefits, dealing with human resource issues or losing time through holidays, sick days or late arrivals."
-                    },
-                    {
-                        "service": "We provide peace of mind through a flexible and rapid correspondence team which you can always have in your speed dial."
-                    },
-                    {
-                        "service": "Our arrangements and contracts enables flexibility on work scopes, scalability of activities and reasonable termination when no longer required."
-                    },
-                    {
-                        "service": "We are regulated members of both the Virtual Assistants Association of South Africa."
+                        "paragraph": "",
+                        "services": [
+                            {
+                                "service": "Efficient, cost-effective and accurately executed."
+                            },
+                            {
+                                "service": "We will handle all your day-to-day requirements so you can focus on the more important tasks such generating revenue and expanding your business."
+                            },
+                            {
+                                "service": "We will invoice for the actual time spent on your instruction/project so no idle time is billed."
+                            },
+                            {
+                                "service": "We pay our own expenses so no need for paying taxes, employees’ benefits, dealing with human resource issues or losing time through holidays, sick days or late arrivals."
+                            },
+                            {
+                                "service": "We provide peace of mind through a flexible and rapid correspondence team which you can always have in your speed dial."
+                            },
+                            {
+                                "service": "Our arrangements and contracts enables flexibility on work scopes, scalability of activities and reasonable termination when no longer required."
+                            },
+                            {
+                                "service": "We are regulated members of both the Virtual Assistants Association of South Africa."
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "id": "OurLegalServices",
                 "title": "Our Legal And Enterprise Consulting Services",
-                "paragraph": null,
-                "services": [
+                "paragraphs": [
                     {
-                        "service": "We are a team of experienced and well-capacitated legal and business consultants with a backing of a dynamic and specialist panel of attorneys. This allows us to provide our SME clients in the solution-oriented and efficient legal and enterprise consulting services."
-                    },
-                    {
-                        "service": "We are a business-minded, results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients."
-                    },
-                    {
-                        "service": "Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction."
-                    },
-                    {
-                        "service": "We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine."
-                    },
-                    {
-                        "service": "We reach above and beyond for our clients, bringing them tried and proven solutions, representation and advice which has been tailored with each client’s needs in mind with the aim to set them up for success."
+                        "paragraph": "",
+                        "services": [
+                            {
+                                "service": "We are a team of experienced and well-capacitated legal and business consultants with a backing of a dynamic and specialist panel of attorneys. This allows us to provide our SME clients in the solution-oriented and efficient legal and enterprise consulting services."
+                            },
+                            {
+                                "service": "We are a business-minded, results-driven and well-resourced business, we invest in talent, processes and technology as key fundamentals into delivering innovative solutions to our clients."
+                            },
+                            {
+                                "service": "Our solutions mitigate losses, increase revenues, ensure support, develop plans and visions into life and we aim to deliver to our clients’ satisfaction."
+                            },
+                            {
+                                "service": "We have a dynamic and well capacitated panel of attorneys who have unsurpassed experience and are always available to take on our client’s matter on a fees structure that we predetermine."
+                            },
+                            {
+                                "service": "We reach above and beyond for our clients, bringing them tried and proven solutions, representation and advice which has been tailored with each client’s needs in mind with the aim to set them up for success."
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "id": "OurParalegalServices",
                 "title": "Our Paralegal Services",
-                "paragraph": null,
-                "services": [
+                "paragraphs": [
                     {
-                        "service": "We give legal professionals an opportunity to delegate their workload which in turn will not only ease the stress of their heavy caseload but will also help cases to proceed toward resolution more quickly."
-                    },
-                    {
-                        "service": "Some of our paralegal tasks are outsourced to our panel of attorneys but are nevertheless billed to our clients at paralegal rates."
-                    },
-                    {
-                        "service": "We have dedicated, highly capable and dependable paralegals."
-                    },
-                    {
-                        "service": "Our paralegals are qualified and have experience and knowledge of the operations of a law firm."
-                    },
-                    {
-                        "service": "We offer quality legal services at a lower billing than that of an attorney."
-                    },
-                    {
-                        "service": "We are regulated by the Paralegal Association of South Africa"
+                        "paragraph": "",
+                        "services": [
+                            {
+                                "service": "We give legal professionals an opportunity to delegate their workload which in turn will not only ease the stress of their heavy caseload but will also help cases to proceed toward resolution more quickly."
+                            },
+                            {
+                                "service": "Some of our paralegal tasks are outsourced to our panel of attorneys but are nevertheless billed to our clients at paralegal rates."
+                            },
+                            {
+                                "service": "We have dedicated, highly capable and dependable paralegals."
+                            },
+                            {
+                                "service": "Our paralegals are qualified and have experience and knowledge of the operations of a law firm."
+                            },
+                            {
+                                "service": "We offer quality legal services at a lower billing than that of an attorney."
+                            },
+                            {
+                                "service": "We are regulated by the Paralegal Association of South Africa"
+                            }
+                        ]
                     }
                 ]
             }

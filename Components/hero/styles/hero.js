@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-    height: 600px;
+    height: 557px;
 
     @media only screen and (max-width: 933px) {  
     height: fit-content;
@@ -10,7 +10,7 @@ export const Wrapper = styled.main`
 
 export const Inner = styled.div`
 display: grid;
-grid-template-columns: 600px 1fr;
+grid-template-columns: 1fr 1fr;
 height: 100%;
 
 @media (max-width: 933px) {  
@@ -43,10 +43,10 @@ export const LinkItemText = styled.div`
  > h2 {
     text-transform: capitalize;
  }
- > div {
+ /* > div {
     font-weight: 500;
     border-bottom: 1px solid var(--color-gold);
- }
+ } */
 `
 
 export const LinkItem = styled.div`
