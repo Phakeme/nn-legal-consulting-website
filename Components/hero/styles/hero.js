@@ -61,7 +61,12 @@ export const LinkItem = styled.div`
     box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
     -webkit-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
     -moz-box-shadow: -1px 3px 25px -1px rgba(0,0,0,0.74);
+    
+    @media only screen and (max-width: 633px) {  
+        transform: scale(1);
+    }
  }
+
  `
 
 export const Showcase = styled.div`
