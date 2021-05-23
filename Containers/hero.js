@@ -2,7 +2,7 @@ import React from 'react'
 import { Hero } from '../Components'
 import { Link } from 'react-scroll'
 import Carousel from 'react-bootstrap/Carousel'
-import { HeroLink } from '../Components/hero/HeroLink'
+import { HeroLink } from '../Components'
 
 export function HeroContainer() {
     return (

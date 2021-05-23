@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import Hero from './index'
 
-export function HeroLink(props) {
+export default function HeroLink(props) {
     // console.log(Hero, "RORO")
     return (
         <Link to={props.to} duration={0} spy={true} smooth={true} offset={-90}>
