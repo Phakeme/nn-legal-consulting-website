@@ -51,9 +51,9 @@ export function NavbarContainer({ children }) {
                                         </Link>
                                     </div>
                                 ))}
-                                <Link to="OurLegalServices" duration={0} spy={true} smooth={true} offset={-90} >
+                                <Link to="OurParalegalServices" duration={0} spy={true} smooth={true} offset={-90} >
                                     <About.Heading onClick={() => showSidebar()} >
-                                        Legal Services
+                                        Paralegal Services
                                     </About.Heading>
                                 </Link>
                                 <Link to="contact" duration={0} spy={true} smooth={true} offset={0} >

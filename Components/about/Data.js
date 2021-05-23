@@ -35,17 +35,17 @@ export const Data = [
             },
             {
                 to: "OurLegalServices",
-                link: "Our Legal Services"
+                link: "Our Legal And Enterprise Consulting Services"
             },
             {
-                to: "OurEnterpriseServices",
+                to: "OurParalegalServices",
                 link: "Our Paralegal Services"
             }
         ]
     },
     {
         to: "EXPERTISE",
-        mainLink: "Expertise",
+        mainLink: "Virtual Assistant Services",
         subLinks: [
             {
                 to: "CorrespondentServices",
@@ -65,17 +65,17 @@ export const Data = [
             },
             {
                 to: "PropertyLaw",
-                link: "Property Law"
+                link: "Property Law & Conveyancing"
             }
         ]
     },
     {
         to: "ENTERPRISE-SERVICES",
-        mainLink: "Enterprise Services",
+        mainLink: "Legal & Business Consulting Services",
         subLinks: [
             {
                 to: "SocialEngagement",
-                link: "Social Engagement"
+                link: "Social Engagement Facilitation (Accredited)"
             },
             {
                 to: "acquisition",

@@ -27,11 +27,11 @@ export function HeroContainer({ children }) {
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('/bg.jpg')`
                             }}>
                                 <Hero.LinkItemText>
-                                    <h3>Legal Services</h3>
+                                    <h3>Legal & Business Consulting Services</h3>
                                 </Hero.LinkItemText>
                             </Hero.LinkItem>
                         </Link>
-                        <Link to="OurEnterpriseServices" spy={true} duration={0} smooth={true} offset={-90} >
+                        <Link to="OurParalegalServices" spy={true} duration={0} smooth={true} offset={-90} >
                             <Hero.LinkItem style={{
                                 backgroundImage: `linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('/bg.jpg')`
                             }}>

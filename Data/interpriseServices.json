@@ -1,8 +1,18 @@
 [
     {
         "id": "ENTERPRISE-SERVICES",
-        "title": "ENTERPRISE SERVICES",
+        "title": "LEGAL & BUSINESS CONSULTING SERVICES",
         "subSections": [
+            {
+                "id": "CommercialAndCorporateLaw",
+                "title": "Commercial And Corporate Law",
+                "paragraphs": [
+                    {
+                        "paragraph": "We are committed to providing our business clients specialized legal advice and drafting contracts which are clear and with little to no incomprehensible legal jargon while adhering to our pledge to remain professional. Our corporate and commercial law team is well equipped and business-minded with experience in Mergers and acquisitions advisory, Conducting Due Diligence, Business Rescue, Liquidations, Risk management to avoid liquidation, advice regarding a recovery strategy in the event of financial strain, and propose funding solutions, establishment and implementation of a revised and chosen financial restructuring plan, drafting and review of employment, lease, sale, merger, Service-Level and shareholder’s agreements.",
+                        "services": null
+                    }
+                ]
+            },
             {
                 "id": "SocialEngagement",
                 "title": "Social Engagement Facilitation (Accredited)",
