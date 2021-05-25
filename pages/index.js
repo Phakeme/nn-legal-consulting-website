@@ -6,6 +6,7 @@ import { AboutContainer } from "../Containers/about"
 import { ContactContainer } from "../Containers/contact"
 import { HeroContainer } from "../Containers/hero"
 import { FounderContainer } from '../Containers/founder'
+import { UnionContainer } from '../Containers/union'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HeroContainer />
       <FounderContainer />
       <AboutContainer />
+      <UnionContainer />
       <ContactContainer />
       <FooterContainer />
     </div>

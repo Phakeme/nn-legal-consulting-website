@@ -23,7 +23,7 @@ export const Links = styled.div`
  grid-template-columns: 1fr 1fr;
  grid-template-rows: 1fr 1fr;
  height: 100%;
- z-index: 100;
+ z-index: 10;
 
  @media only screen and (max-width: 633px) {  
     grid-template-columns: 1fr;

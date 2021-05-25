@@ -94,5 +94,9 @@ export const Data = [
                 link: "Company & Secretarial Services"
             }
         ]
+    }, {
+        to: "OurParalegalServices",
+        mainLink: "Paralegal Services",
+        subLinks: []
     }
 ]

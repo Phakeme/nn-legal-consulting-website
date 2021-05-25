@@ -22,7 +22,9 @@ const LinkMenu = () => {
                     <Link to={item.to} duration={0} spy={true} smooth={true} offset={-90} key={index} >
                         <About.Heading onClick={() => toggle(index)} key={index}>
                             {item.mainLink}
+
                             {isOpen === index ? <FaAngleUp /> : <FaAngleDown />}
+
                         </About.Heading>
                     </Link>
                     {isOpen === index ? <About.Ul>

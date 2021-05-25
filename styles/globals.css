@@ -55,11 +55,6 @@ ul{
   // CSS rules
 } */
 
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-} */
 label {
   color: white;
   margin: 5px 0;
@@ -78,7 +73,7 @@ input {
   margin-top: 30px;
   display: inline-block;
   border-left: 1px solid var(--color-gold);
-  background-color: var(--color-black-navy);
+  background-color: var(--color-blue);
   box-sizing: border-box;
   font-size: inherit;
   outline: none;
@@ -97,15 +92,14 @@ textarea {
   display: inline-block;
   outline: none;
   font-size: 18px;
-  background-color: var(--color-black-navy);
+  background-color: var(--color-blue);
   border-left: 1px solid var(--color-gold);
   box-sizing: border-box;
 }
 
 button[type="submit"] {
-  background-color:  var(--color-blue-dark);
+  background-color:  var(--color-blue);
   border: 1px solid var(--color-gold);
-
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -163,7 +157,6 @@ button[type="submit"]:hover {
 }
 
 .sliderDisplay {
-   /* background-color: red; */
    width: 100%;
 }
 
@@ -181,21 +174,12 @@ button[type="submit"]:hover {
   height: 600px;
 }
 
-.each-slide span {
-  /* padding: 20px; */
-  /* font-size: 20px; */
-  /* background: #efefef; */
-  /* text-align: center; */
-}
-
 .carousel, .item, .active {
   height:100%;
   }
   .carousel-inner {
   height:100%;
   }
-
-/*  */
 
 @media only screen and (max-width: 1350px) {
   .carousel {

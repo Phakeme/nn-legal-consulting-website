@@ -16,7 +16,7 @@ export function HeroContainer() {
                             bg={`linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)),url('/bg.jpg')`}
                         />
                         <HeroLink
-                            to="OurLegalServices"
+                            to="ENTERPRISE-SERVICES"
                             label="Legal & Business Consulting Services"
                             bg={`linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),url('/bg.jpg')`}
                         />
