@@ -1,7 +1,5 @@
 import React from 'react'
-// import Container from '../Utils/Container/'
 import { Wrapper, Body, Icon, Content, Links } from './styles/sidebar'
-import Link from 'next/link'
 
 export default function SideBar({ children, ...restProps }) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Contact, Hero } from '../Components'
+import { Contact } from '../Components'
 import { ContactFormContainer } from './contactForm'
 import { IoMdPin, IoMdMail } from "react-icons/io"
 import { RiContactsBookUploadFill } from "react-icons/ri"

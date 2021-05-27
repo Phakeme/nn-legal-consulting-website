@@ -1,10 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.nav`
-    /* padding: 67px 30px 30px 0px; */
     display: flex;
-    /* justify-content: start; */
-    /* align-items: end; */
     position: fixed;
     height: 100vh;
     top: 0;
@@ -37,6 +34,4 @@ export const Icon = styled.div`
 `
 
 export const Links = styled.div`
-/* background-color: black; */
-/* min-height: 500px; */
 `

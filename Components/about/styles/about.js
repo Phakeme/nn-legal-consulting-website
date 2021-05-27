@@ -5,10 +5,8 @@ padding: 60px;
 background-color: var(--color-black-navy);
 
 @media only screen and (max-width: 1025px) {
-   
-   padding: 20px;
-   
-   }
+    padding: 20px;
+}
 
 @media only screen and (max-width: 933px) {  
     padding: 15px;
@@ -21,9 +19,7 @@ grid-gap: 40px;
 grid-template-columns: 325.5px 1fr;
 
 @media only screen and (max-width: 1025px) {
-   
     grid-gap: 20px;
-   
    }
 
 
@@ -33,20 +29,19 @@ grid-template-columns: 325.5px 1fr;
 }
 
 @media only screen and (max-width: 800px) {  
-    /* grid-gap: 20px; */
     grid-template-columns: 1fr;
 }
 `
 
 export const Sidebar = styled.div`
 position: sticky;
-  position: -webkit-sticky;
-  top: 70px;
-    left: 13px;
-    width: 335px;
-    height: fit-content;
+position: -webkit-sticky;
+top: 70px;
+left: 13px;
+width: 335px;
+height: fit-content;
 margin-bottom: 20px;
-    z-index: 10;
+z-index: 10;
 border-right: 1px solid var(--color-gold);
 
 @media only screen and (max-width: 933px) {  
@@ -54,14 +49,8 @@ border-right: 1px solid var(--color-gold);
 }
 
 @media only screen and (max-width: 800px) {  
-    /* width: 100%;
-    position: relative;
-  top: 0px;
-
-  border-right: none; */
     display: none;
 }
-
 `
 
 export const Ul = styled.div`
@@ -72,7 +61,6 @@ width: 95.6%;
 `
 
 export const Li = styled.div`
-/* padding-left: 25px; */
 margin: 10px 0;
 `
 
@@ -86,11 +74,10 @@ background-color: var(--color-blue);
 width: 100%;
 offset: 500px;
 border-left: 1px solid var(--color-gold);
-    margin: 5px auto;
-
+margin: 5px auto;
 cursor: pointer;
+
 :hover{
-    /* color: var(--color-blue); */
     background-color: var(--color-gold);
 }
 `
